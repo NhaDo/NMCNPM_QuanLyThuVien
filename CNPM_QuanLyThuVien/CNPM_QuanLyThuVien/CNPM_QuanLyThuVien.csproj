@@ -1,0 +1,223 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{B149E1E4-9ED5-4B9A-A3B6-B1E819A55667}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>CNPM_QuanLyThuVien</RootNamespace>
+    <AssemblyName>CNPM_QuanLyThuVien</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="HomeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HomeForm.Designer.cs">
+      <DependentUpon>HomeForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HomeViewComponents\LapBaoCao\BaoCaoTheoTheLoai.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="HomeViewComponents\LapBaoCao\BaoCaoTheoTheLoai.Designer.cs">
+      <DependentUpon>BaoCaoTheoTheLoai.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HomeViewComponents\LapBaoCao.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="HomeViewComponents\LapBaoCao.Designer.cs">
+      <DependentUpon>LapBaoCao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HomeViewComponents\LapBaoCao\ThongKeSachTraTre.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="HomeViewComponents\LapBaoCao\ThongKeSachTraTre.Designer.cs">
+      <DependentUpon>ThongKeSachTraTre.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HomeViewComponents\LapPhieuMuonTra\PhieuMuon.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="HomeViewComponents\LapPhieuMuonTra\PhieuMuon.Designer.cs">
+      <DependentUpon>PhieuMuon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HomeViewComponents\QuanLyQuyDinh.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="HomeViewComponents\QuanLyQuyDinh.Designer.cs">
+      <DependentUpon>QuanLyQuyDinh.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HomeViewComponents\QuanLyQuyDinh\QuyDinh1.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="HomeViewComponents\QuanLyQuyDinh\QuyDinh1.Designer.cs">
+      <DependentUpon>QuyDinh1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HomeViewComponents\QuanLyQuyDinh\QuyDinh2.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="HomeViewComponents\QuanLyQuyDinh\QuyDinh2.Designer.cs">
+      <DependentUpon>QuyDinh2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HomeViewComponents\QuanLyQuyDinh\QuyDinh3.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="HomeViewComponents\QuanLyQuyDinh\QuyDinh3.Designer.cs">
+      <DependentUpon>QuyDinh3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HomeViewComponents\TraCuuSach.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="HomeViewComponents\TraCuuSach.Designer.cs">
+      <DependentUpon>TraCuuSach.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HomeViewComponents\LapPhieuThuTienPhat.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="HomeViewComponents\LapPhieuThuTienPhat.Designer.cs">
+      <DependentUpon>LapPhieuThuTienPhat.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LoginForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoginForm.Designer.cs">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HomeViewComponents\LapPhieuMuonTra\PhieuTra.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="HomeViewComponents\LapPhieuMuonTra\PhieuTra.Designer.cs">
+      <DependentUpon>PhieuTra.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="HomeViewComponents\LapTheDocGia.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="HomeViewComponents\LapTheDocGia.Designer.cs">
+      <DependentUpon>LapTheDocGia.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HomeViewComponents\LapPhieuNhapSach.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="HomeViewComponents\LapPhieuNhapSach.Designer.cs">
+      <DependentUpon>LapPhieuNhapSach.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HomeViewComponents\LapPhieuMuonTra.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="HomeViewComponents\LapPhieuMuonTra.Designer.cs">
+      <DependentUpon>LapPhieuMuonTra.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="HomeForm.resx">
+      <DependentUpon>HomeForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HomeViewComponents\LapBaoCao\BaoCaoTheoTheLoai.resx">
+      <DependentUpon>BaoCaoTheoTheLoai.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HomeViewComponents\LapBaoCao.resx">
+      <DependentUpon>LapBaoCao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HomeViewComponents\LapBaoCao\ThongKeSachTraTre.resx">
+      <DependentUpon>ThongKeSachTraTre.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HomeViewComponents\LapPhieuMuonTra.resx">
+      <DependentUpon>LapPhieuMuonTra.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HomeViewComponents\LapPhieuNhapSach.resx">
+      <DependentUpon>LapPhieuNhapSach.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HomeViewComponents\LapPhieuThuTienPhat.resx">
+      <DependentUpon>LapPhieuThuTienPhat.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HomeViewComponents\QuanLyQuyDinh.resx">
+      <DependentUpon>QuanLyQuyDinh.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HomeViewComponents\QuanLyQuyDinh\QuyDinh1.resx">
+      <DependentUpon>QuyDinh1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HomeViewComponents\QuanLyQuyDinh\QuyDinh2.resx">
+      <DependentUpon>QuyDinh2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HomeViewComponents\QuanLyQuyDinh\QuyDinh3.resx">
+      <DependentUpon>QuyDinh3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HomeViewComponents\TraCuuSach.resx">
+      <DependentUpon>TraCuuSach.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoginForm.resx">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HomeViewComponents\LapPhieuMuonTra\PhieuMuon.resx">
+      <DependentUpon>PhieuMuon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HomeViewComponents\LapPhieuMuonTra\PhieuTra.resx">
+      <DependentUpon>PhieuTra.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="HomeViewComponents\LapTheDocGia.resx">
+      <DependentUpon>LapTheDocGia.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1024px-Search_Icon.png" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
