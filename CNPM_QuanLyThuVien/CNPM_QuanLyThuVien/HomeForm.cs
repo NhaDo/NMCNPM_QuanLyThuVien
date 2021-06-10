@@ -80,5 +80,15 @@ namespace CNPM_QuanLyThuVien
             lapBaoCao_view1.BringToFront();
 
         }
+
+        private void traCuuSach_view1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void quanLyQuyDinh_view1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -23,3 +23,28 @@ C:\Users\NhaDo\source\repos\CNPM_QuanLyThuVien\CNPM_QuanLyThuVien\obj\Debug\CNPM
 C:\Users\NhaDo\source\repos\CNPM_QuanLyThuVien\CNPM_QuanLyThuVien\obj\Debug\CNPM_QuanLyThuVien.HomeViewComponents.LapBaoCao.BaoCaoTheoTheLoai_view.resources
 C:\Users\NhaDo\source\repos\CNPM_QuanLyThuVien\CNPM_QuanLyThuVien\obj\Debug\CNPM_QuanLyThuVien.HomeViewComponents.LapBaoCao.ThongKeSachTraTre_view.resources
 C:\Users\NhaDo\source\repos\CNPM_QuanLyThuVien\CNPM_QuanLyThuVien\obj\Debug\CNPM_QuanLyThuVien.HomeViewComponents.LapBaoCao.LapBaoCao_view.resources
+C:\Users\Zedge Mobile\code\NMCNPM_QuanLyThuVien\CNPM_QuanLyThuVien\CNPM_QuanLyThuVien\bin\Debug\CNPM_QuanLyThuVien.exe.config
+C:\Users\Zedge Mobile\code\NMCNPM_QuanLyThuVien\CNPM_QuanLyThuVien\CNPM_QuanLyThuVien\bin\Debug\CNPM_QuanLyThuVien.exe
+C:\Users\Zedge Mobile\code\NMCNPM_QuanLyThuVien\CNPM_QuanLyThuVien\CNPM_QuanLyThuVien\bin\Debug\CNPM_QuanLyThuVien.pdb
+C:\Users\Zedge Mobile\code\NMCNPM_QuanLyThuVien\CNPM_QuanLyThuVien\CNPM_QuanLyThuVien\obj\Debug\CNPM_QuanLyThuVien.csproj.AssemblyReference.cache
+C:\Users\Zedge Mobile\code\NMCNPM_QuanLyThuVien\CNPM_QuanLyThuVien\CNPM_QuanLyThuVien\obj\Debug\CNPM_QuanLyThuVien.HomeForm.resources
+C:\Users\Zedge Mobile\code\NMCNPM_QuanLyThuVien\CNPM_QuanLyThuVien\CNPM_QuanLyThuVien\obj\Debug\CNPM_QuanLyThuVien.HomeViewComponents.LapBaoCao.BaoCaoTheoTheLoai_view.resources
+C:\Users\Zedge Mobile\code\NMCNPM_QuanLyThuVien\CNPM_QuanLyThuVien\CNPM_QuanLyThuVien\obj\Debug\CNPM_QuanLyThuVien.HomeViewComponents.LapBaoCao.LapBaoCao_view.resources
+C:\Users\Zedge Mobile\code\NMCNPM_QuanLyThuVien\CNPM_QuanLyThuVien\CNPM_QuanLyThuVien\obj\Debug\CNPM_QuanLyThuVien.HomeViewComponents.LapBaoCao.ThongKeSachTraTre_view.resources
+C:\Users\Zedge Mobile\code\NMCNPM_QuanLyThuVien\CNPM_QuanLyThuVien\CNPM_QuanLyThuVien\obj\Debug\CNPM_QuanLyThuVien.LapPhieuMuonTra_view.resources
+C:\Users\Zedge Mobile\code\NMCNPM_QuanLyThuVien\CNPM_QuanLyThuVien\CNPM_QuanLyThuVien\obj\Debug\CNPM_QuanLyThuVien.LapPhieuNhapSach_view.resources
+C:\Users\Zedge Mobile\code\NMCNPM_QuanLyThuVien\CNPM_QuanLyThuVien\CNPM_QuanLyThuVien\obj\Debug\CNPM_QuanLyThuVien.HomeViewComponents.LapPhieuThuTienPhat_view.resources
+C:\Users\Zedge Mobile\code\NMCNPM_QuanLyThuVien\CNPM_QuanLyThuVien\CNPM_QuanLyThuVien\obj\Debug\CNPM_QuanLyThuVien.HomeViewComponents.QuanLyQuyDinh_view.resources
+C:\Users\Zedge Mobile\code\NMCNPM_QuanLyThuVien\CNPM_QuanLyThuVien\CNPM_QuanLyThuVien\obj\Debug\CNPM_QuanLyThuVien.HomeViewComponents.QuanLyQuyDinh.QuyDinh1_view.resources
+C:\Users\Zedge Mobile\code\NMCNPM_QuanLyThuVien\CNPM_QuanLyThuVien\CNPM_QuanLyThuVien\obj\Debug\CNPM_QuanLyThuVien.HomeViewComponents.QuanLyQuyDinh.QuyDinh2_view.resources
+C:\Users\Zedge Mobile\code\NMCNPM_QuanLyThuVien\CNPM_QuanLyThuVien\CNPM_QuanLyThuVien\obj\Debug\CNPM_QuanLyThuVien.HomeViewComponents.QuanLyQuyDinh.QuyDinh3_view.resources
+C:\Users\Zedge Mobile\code\NMCNPM_QuanLyThuVien\CNPM_QuanLyThuVien\CNPM_QuanLyThuVien\obj\Debug\CNPM_QuanLyThuVien.HomeViewComponents.TraCuuSach_view.resources
+C:\Users\Zedge Mobile\code\NMCNPM_QuanLyThuVien\CNPM_QuanLyThuVien\CNPM_QuanLyThuVien\obj\Debug\CNPM_QuanLyThuVien.LoginForm.resources
+C:\Users\Zedge Mobile\code\NMCNPM_QuanLyThuVien\CNPM_QuanLyThuVien\CNPM_QuanLyThuVien\obj\Debug\CNPM_QuanLyThuVien.PhieuMuon_view.resources
+C:\Users\Zedge Mobile\code\NMCNPM_QuanLyThuVien\CNPM_QuanLyThuVien\CNPM_QuanLyThuVien\obj\Debug\CNPM_QuanLyThuVien.PhieuTra_view.resources
+C:\Users\Zedge Mobile\code\NMCNPM_QuanLyThuVien\CNPM_QuanLyThuVien\CNPM_QuanLyThuVien\obj\Debug\CNPM_QuanLyThuVien.Properties.Resources.resources
+C:\Users\Zedge Mobile\code\NMCNPM_QuanLyThuVien\CNPM_QuanLyThuVien\CNPM_QuanLyThuVien\obj\Debug\CNPM_QuanLyThuVien.LapTheDocGia_view.resources
+C:\Users\Zedge Mobile\code\NMCNPM_QuanLyThuVien\CNPM_QuanLyThuVien\CNPM_QuanLyThuVien\obj\Debug\CNPM_QuanLyThuVien.csproj.GenerateResource.cache
+C:\Users\Zedge Mobile\code\NMCNPM_QuanLyThuVien\CNPM_QuanLyThuVien\CNPM_QuanLyThuVien\obj\Debug\CNPM_QuanLyThuVien.csproj.CoreCompileInputs.cache
+C:\Users\Zedge Mobile\code\NMCNPM_QuanLyThuVien\CNPM_QuanLyThuVien\CNPM_QuanLyThuVien\obj\Debug\CNPM_QuanLyThuVien.exe
+C:\Users\Zedge Mobile\code\NMCNPM_QuanLyThuVien\CNPM_QuanLyThuVien\CNPM_QuanLyThuVien\obj\Debug\CNPM_QuanLyThuVien.pdb

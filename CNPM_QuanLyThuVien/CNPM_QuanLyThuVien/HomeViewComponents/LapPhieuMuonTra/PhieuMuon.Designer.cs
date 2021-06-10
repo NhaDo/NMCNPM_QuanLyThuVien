@@ -50,18 +50,22 @@ namespace CNPM_QuanLyThuVien
             // 
             // cancel_btn
             // 
-            this.cancel_btn.Location = new System.Drawing.Point(328, 497);
+            this.cancel_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cancel_btn.Location = new System.Drawing.Point(377, 376);
+            this.cancel_btn.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.cancel_btn.Name = "cancel_btn";
-            this.cancel_btn.Size = new System.Drawing.Size(109, 47);
+            this.cancel_btn.Size = new System.Drawing.Size(73, 31);
             this.cancel_btn.TabIndex = 48;
             this.cancel_btn.Text = "Cancel";
             this.cancel_btn.UseVisualStyleBackColor = true;
             // 
             // ok_btn
             // 
-            this.ok_btn.Location = new System.Drawing.Point(529, 497);
+            this.ok_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ok_btn.Location = new System.Drawing.Point(473, 376);
+            this.ok_btn.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.ok_btn.Name = "ok_btn";
-            this.ok_btn.Size = new System.Drawing.Size(109, 47);
+            this.ok_btn.Size = new System.Drawing.Size(73, 31);
             this.ok_btn.TabIndex = 47;
             this.ok_btn.Text = "OK";
             this.ok_btn.UseVisualStyleBackColor = true;
@@ -69,36 +73,41 @@ namespace CNPM_QuanLyThuVien
             // ngaymuon_dtp
             // 
             this.ngaymuon_dtp.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ngaymuon_dtp.Location = new System.Drawing.Point(280, 242);
+            this.ngaymuon_dtp.Location = new System.Drawing.Point(248, 200);
+            this.ngaymuon_dtp.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.ngaymuon_dtp.Name = "ngaymuon_dtp";
-            this.ngaymuon_dtp.Size = new System.Drawing.Size(358, 30);
+            this.ngaymuon_dtp.Size = new System.Drawing.Size(240, 23);
             this.ngaymuon_dtp.TabIndex = 45;
             // 
             // tensach_txtbox
             // 
             this.tensach_txtbox.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tensach_txtbox.Location = new System.Drawing.Point(280, 195);
+            this.tensach_txtbox.Location = new System.Drawing.Point(248, 167);
+            this.tensach_txtbox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.tensach_txtbox.Name = "tensach_txtbox";
-            this.tensach_txtbox.Size = new System.Drawing.Size(358, 30);
+            this.tensach_txtbox.Size = new System.Drawing.Size(240, 23);
             this.tensach_txtbox.TabIndex = 41;
             // 
             // ngaymuon_label
             // 
             this.ngaymuon_label.AutoSize = true;
-            this.ngaymuon_label.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ngaymuon_label.Location = new System.Drawing.Point(96, 247);
+            this.ngaymuon_label.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ngaymuon_label.Location = new System.Drawing.Point(122, 206);
+            this.ngaymuon_label.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.ngaymuon_label.Name = "ngaymuon_label";
-            this.ngaymuon_label.Size = new System.Drawing.Size(112, 25);
+            this.ngaymuon_label.Size = new System.Drawing.Size(84, 18);
             this.ngaymuon_label.TabIndex = 37;
             this.ngaymuon_label.Text = "Ngày mượn";
+            this.ngaymuon_label.Click += new System.EventHandler(this.ngaymuon_label_Click);
             // 
             // tensach_label
             // 
             this.tensach_label.AutoSize = true;
-            this.tensach_label.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tensach_label.Location = new System.Drawing.Point(96, 200);
+            this.tensach_label.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tensach_label.Location = new System.Drawing.Point(120, 170);
+            this.tensach_label.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.tensach_label.Name = "tensach_label";
-            this.tensach_label.Size = new System.Drawing.Size(152, 25);
+            this.tensach_label.Size = new System.Drawing.Size(116, 18);
             this.tensach_label.TabIndex = 35;
             this.tensach_label.Text = "Họ Tên Độc Giả";
             // 
@@ -106,46 +115,51 @@ namespace CNPM_QuanLyThuVien
             // 
             this.lapphieumuonsach_label.AutoSize = true;
             this.lapphieumuonsach_label.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lapphieumuonsach_label.Location = new System.Drawing.Point(125, 24);
+            this.lapphieumuonsach_label.Location = new System.Drawing.Point(139, 33);
+            this.lapphieumuonsach_label.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lapphieumuonsach_label.Name = "lapphieumuonsach_label";
-            this.lapphieumuonsach_label.Size = new System.Drawing.Size(485, 46);
+            this.lapphieumuonsach_label.Size = new System.Drawing.Size(329, 31);
             this.lapphieumuonsach_label.TabIndex = 34;
             this.lapphieumuonsach_label.Text = "LẬP PHIẾU MƯỢN SÁCH";
             // 
             // madocgia_label
             // 
             this.madocgia_label.AutoSize = true;
-            this.madocgia_label.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.madocgia_label.Location = new System.Drawing.Point(96, 149);
+            this.madocgia_label.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.madocgia_label.Location = new System.Drawing.Point(120, 136);
+            this.madocgia_label.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.madocgia_label.Name = "madocgia_label";
-            this.madocgia_label.Size = new System.Drawing.Size(115, 25);
+            this.madocgia_label.Size = new System.Drawing.Size(88, 18);
             this.madocgia_label.TabIndex = 74;
             this.madocgia_label.Text = "Mã Độc Giả";
             // 
             // madocgia_txtbox
             // 
             this.madocgia_txtbox.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.madocgia_txtbox.Location = new System.Drawing.Point(280, 144);
+            this.madocgia_txtbox.Location = new System.Drawing.Point(248, 133);
+            this.madocgia_txtbox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.madocgia_txtbox.Name = "madocgia_txtbox";
-            this.madocgia_txtbox.Size = new System.Drawing.Size(358, 30);
+            this.madocgia_txtbox.Size = new System.Drawing.Size(240, 23);
             this.madocgia_txtbox.TabIndex = 75;
             // 
             // maphieu_txtbox
             // 
             this.maphieu_txtbox.BackColor = System.Drawing.Color.Gainsboro;
             this.maphieu_txtbox.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.maphieu_txtbox.Location = new System.Drawing.Point(280, 93);
+            this.maphieu_txtbox.Location = new System.Drawing.Point(248, 97);
+            this.maphieu_txtbox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.maphieu_txtbox.Name = "maphieu_txtbox";
-            this.maphieu_txtbox.Size = new System.Drawing.Size(358, 30);
+            this.maphieu_txtbox.Size = new System.Drawing.Size(240, 23);
             this.maphieu_txtbox.TabIndex = 77;
             // 
             // maphieu_label
             // 
             this.maphieu_label.AutoSize = true;
-            this.maphieu_label.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.maphieu_label.Location = new System.Drawing.Point(96, 98);
+            this.maphieu_label.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.maphieu_label.Location = new System.Drawing.Point(120, 97);
+            this.maphieu_label.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.maphieu_label.Name = "maphieu_label";
-            this.maphieu_label.Size = new System.Drawing.Size(93, 25);
+            this.maphieu_label.Size = new System.Drawing.Size(68, 18);
             this.maphieu_label.TabIndex = 76;
             this.maphieu_label.Text = "Mã phiếu";
             // 
@@ -158,11 +172,12 @@ namespace CNPM_QuanLyThuVien
             this.tensach,
             this.theloai,
             this.tacgia});
-            this.dataGridView1.Location = new System.Drawing.Point(21, 308);
+            this.dataGridView1.Location = new System.Drawing.Point(80, 256);
+            this.dataGridView1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 62;
             this.dataGridView1.RowTemplate.Height = 28;
-            this.dataGridView1.Size = new System.Drawing.Size(699, 152);
+            this.dataGridView1.Size = new System.Drawing.Size(466, 99);
             this.dataGridView1.TabIndex = 78;
             // 
             // masach
@@ -195,7 +210,7 @@ namespace CNPM_QuanLyThuVien
             // 
             // PhieuMuon_view
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.maphieu_txtbox);
@@ -209,8 +224,9 @@ namespace CNPM_QuanLyThuVien
             this.Controls.Add(this.ngaymuon_label);
             this.Controls.Add(this.tensach_label);
             this.Controls.Add(this.lapphieumuonsach_label);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "PhieuMuon_view";
-            this.Size = new System.Drawing.Size(735, 600);
+            this.Size = new System.Drawing.Size(576, 483);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

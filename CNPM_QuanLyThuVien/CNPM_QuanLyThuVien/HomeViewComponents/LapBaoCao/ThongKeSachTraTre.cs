@@ -19,5 +19,10 @@ namespace CNPM_QuanLyThuVien.HomeViewComponents.LapBaoCao
             this.dateTimePicker1.Format = DateTimePickerFormat.Custom;
             dateTimePicker1.CustomFormat = "dd/mm/yyyy";
         }
+
+        private void tracuusach_label_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

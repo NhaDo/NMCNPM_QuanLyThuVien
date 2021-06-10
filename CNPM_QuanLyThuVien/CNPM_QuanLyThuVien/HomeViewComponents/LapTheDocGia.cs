@@ -16,5 +16,10 @@ namespace CNPM_QuanLyThuVien
         {
             InitializeComponent();
         }
+
+        private void madocgia_label_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

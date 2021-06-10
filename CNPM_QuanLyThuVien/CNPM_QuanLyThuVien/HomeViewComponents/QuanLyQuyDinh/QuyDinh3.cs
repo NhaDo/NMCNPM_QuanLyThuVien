@@ -16,5 +16,10 @@ namespace CNPM_QuanLyThuVien.HomeViewComponents.QuanLyQuyDinh
         {
             InitializeComponent();
         }
+
+        private void sachmuontoida_txtbox_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

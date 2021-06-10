@@ -36,21 +36,23 @@ namespace CNPM_QuanLyThuVien
             this.lapphieuthutienphat_btn = new System.Windows.Forms.Button();
             this.quanlyquydinh_btn = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.lapbaocao_btn = new System.Windows.Forms.Button();
+            this.lapBaoCao_view1 = new CNPM_QuanLyThuVien.HomeViewComponents.LapBaoCao.LapBaoCao_view();
+            this.quanLyQuyDinh_view1 = new CNPM_QuanLyThuVien.HomeViewComponents.QuanLyQuyDinh_view();
             this.lapPhieuThuTienPhat_view1 = new CNPM_QuanLyThuVien.HomeViewComponents.LapPhieuThuTienPhat_view();
             this.traCuuSach_view1 = new CNPM_QuanLyThuVien.HomeViewComponents.TraCuuSach_view();
             this.lapPhieuMuonTra_view1 = new CNPM_QuanLyThuVien.LapPhieuMuonTra_view();
             this.lapPhieuNhapSach_view1 = new CNPM_QuanLyThuVien.LapPhieuNhapSach_view();
             this.lapTheDocGia_view1 = new CNPM_QuanLyThuVien.LapTheDocGia_view();
-            this.quanLyQuyDinh_view1 = new CNPM_QuanLyThuVien.HomeViewComponents.QuanLyQuyDinh_view();
-            this.lapbaocao_btn = new System.Windows.Forms.Button();
-            this.lapBaoCao_view1 = new CNPM_QuanLyThuVien.HomeViewComponents.LapBaoCao.LapBaoCao_view();
             this.SuspendLayout();
             // 
             // lapthedocgia_btn
             // 
-            this.lapthedocgia_btn.Location = new System.Drawing.Point(0, 0);
+            this.lapthedocgia_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lapthedocgia_btn.Location = new System.Drawing.Point(11, 11);
+            this.lapthedocgia_btn.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.lapthedocgia_btn.Name = "lapthedocgia_btn";
-            this.lapthedocgia_btn.Size = new System.Drawing.Size(195, 52);
+            this.lapthedocgia_btn.Size = new System.Drawing.Size(130, 34);
             this.lapthedocgia_btn.TabIndex = 0;
             this.lapthedocgia_btn.Text = "Lập thẻ độc giả";
             this.lapthedocgia_btn.UseVisualStyleBackColor = true;
@@ -58,9 +60,11 @@ namespace CNPM_QuanLyThuVien
             // 
             // lapphieunhapsach_btn
             // 
-            this.lapphieunhapsach_btn.Location = new System.Drawing.Point(0, 58);
+            this.lapphieunhapsach_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lapphieunhapsach_btn.Location = new System.Drawing.Point(11, 50);
+            this.lapphieunhapsach_btn.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.lapphieunhapsach_btn.Name = "lapphieunhapsach_btn";
-            this.lapphieunhapsach_btn.Size = new System.Drawing.Size(195, 52);
+            this.lapphieunhapsach_btn.Size = new System.Drawing.Size(130, 34);
             this.lapphieunhapsach_btn.TabIndex = 1;
             this.lapphieunhapsach_btn.Text = "Lập phiếu nhập sách";
             this.lapphieunhapsach_btn.UseVisualStyleBackColor = true;
@@ -68,9 +72,11 @@ namespace CNPM_QuanLyThuVien
             // 
             // tracuusach_btn
             // 
-            this.tracuusach_btn.Location = new System.Drawing.Point(0, 116);
+            this.tracuusach_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tracuusach_btn.Location = new System.Drawing.Point(11, 88);
+            this.tracuusach_btn.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.tracuusach_btn.Name = "tracuusach_btn";
-            this.tracuusach_btn.Size = new System.Drawing.Size(195, 52);
+            this.tracuusach_btn.Size = new System.Drawing.Size(130, 34);
             this.tracuusach_btn.TabIndex = 2;
             this.tracuusach_btn.Text = "Tra cứu sách";
             this.tracuusach_btn.UseVisualStyleBackColor = true;
@@ -78,9 +84,11 @@ namespace CNPM_QuanLyThuVien
             // 
             // lapphieumuontra_btn
             // 
-            this.lapphieumuontra_btn.Location = new System.Drawing.Point(0, 174);
+            this.lapphieumuontra_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lapphieumuontra_btn.Location = new System.Drawing.Point(11, 126);
+            this.lapphieumuontra_btn.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.lapphieumuontra_btn.Name = "lapphieumuontra_btn";
-            this.lapphieumuontra_btn.Size = new System.Drawing.Size(195, 52);
+            this.lapphieumuontra_btn.Size = new System.Drawing.Size(130, 34);
             this.lapphieumuontra_btn.TabIndex = 3;
             this.lapphieumuontra_btn.Text = "Lập phiếu mượn / trả";
             this.lapphieumuontra_btn.UseVisualStyleBackColor = true;
@@ -88,9 +96,11 @@ namespace CNPM_QuanLyThuVien
             // 
             // lapphieuthutienphat_btn
             // 
-            this.lapphieuthutienphat_btn.Location = new System.Drawing.Point(0, 232);
+            this.lapphieuthutienphat_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lapphieuthutienphat_btn.Location = new System.Drawing.Point(11, 164);
+            this.lapphieuthutienphat_btn.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.lapphieuthutienphat_btn.Name = "lapphieuthutienphat_btn";
-            this.lapphieuthutienphat_btn.Size = new System.Drawing.Size(195, 52);
+            this.lapphieuthutienphat_btn.Size = new System.Drawing.Size(130, 34);
             this.lapphieuthutienphat_btn.TabIndex = 4;
             this.lapphieuthutienphat_btn.Text = "Lập phiếu thu tiền phạt";
             this.lapphieuthutienphat_btn.UseVisualStyleBackColor = true;
@@ -98,9 +108,11 @@ namespace CNPM_QuanLyThuVien
             // 
             // quanlyquydinh_btn
             // 
-            this.quanlyquydinh_btn.Location = new System.Drawing.Point(0, 348);
+            this.quanlyquydinh_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.quanlyquydinh_btn.Location = new System.Drawing.Point(11, 240);
+            this.quanlyquydinh_btn.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.quanlyquydinh_btn.Name = "quanlyquydinh_btn";
-            this.quanlyquydinh_btn.Size = new System.Drawing.Size(195, 52);
+            this.quanlyquydinh_btn.Size = new System.Drawing.Size(130, 34);
             this.quanlyquydinh_btn.TabIndex = 5;
             this.quanlyquydinh_btn.Text = "Quản lý quy định";
             this.quanlyquydinh_btn.UseVisualStyleBackColor = true;
@@ -109,70 +121,19 @@ namespace CNPM_QuanLyThuVien
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.panel1.Location = new System.Drawing.Point(201, 0);
+            this.panel1.Location = new System.Drawing.Point(150, 0);
+            this.panel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(2, 700);
+            this.panel1.Size = new System.Drawing.Size(10, 486);
             this.panel1.TabIndex = 6;
-            // 
-            // lapPhieuThuTienPhat_view1
-            // 
-            this.lapPhieuThuTienPhat_view1.BackColor = System.Drawing.Color.PowderBlue;
-            this.lapPhieuThuTienPhat_view1.Location = new System.Drawing.Point(205, 0);
-            this.lapPhieuThuTienPhat_view1.Name = "lapPhieuThuTienPhat_view1";
-            this.lapPhieuThuTienPhat_view1.Size = new System.Drawing.Size(1100, 700);
-            this.lapPhieuThuTienPhat_view1.TabIndex = 11;
-            this.lapPhieuThuTienPhat_view1.Visible = false;
-            // 
-            // traCuuSach_view1
-            // 
-            this.traCuuSach_view1.BackColor = System.Drawing.Color.PowderBlue;
-            this.traCuuSach_view1.Location = new System.Drawing.Point(205, 0);
-            this.traCuuSach_view1.Name = "traCuuSach_view1";
-            this.traCuuSach_view1.Size = new System.Drawing.Size(1100, 700);
-            this.traCuuSach_view1.TabIndex = 10;
-            this.traCuuSach_view1.Visible = false;
-            // 
-            // lapPhieuMuonTra_view1
-            // 
-            this.lapPhieuMuonTra_view1.BackColor = System.Drawing.Color.PowderBlue;
-            this.lapPhieuMuonTra_view1.Location = new System.Drawing.Point(205, 0);
-            this.lapPhieuMuonTra_view1.Name = "lapPhieuMuonTra_view1";
-            this.lapPhieuMuonTra_view1.Size = new System.Drawing.Size(1100, 700);
-            this.lapPhieuMuonTra_view1.TabIndex = 9;
-            this.lapPhieuMuonTra_view1.Visible = false;
-            // 
-            // lapPhieuNhapSach_view1
-            // 
-            this.lapPhieuNhapSach_view1.BackColor = System.Drawing.Color.PowderBlue;
-            this.lapPhieuNhapSach_view1.Location = new System.Drawing.Point(205, 0);
-            this.lapPhieuNhapSach_view1.Name = "lapPhieuNhapSach_view1";
-            this.lapPhieuNhapSach_view1.Size = new System.Drawing.Size(1100, 700);
-            this.lapPhieuNhapSach_view1.TabIndex = 8;
-            this.lapPhieuNhapSach_view1.Visible = false;
-            // 
-            // lapTheDocGia_view1
-            // 
-            this.lapTheDocGia_view1.BackColor = System.Drawing.Color.PowderBlue;
-            this.lapTheDocGia_view1.Location = new System.Drawing.Point(205, 0);
-            this.lapTheDocGia_view1.Name = "lapTheDocGia_view1";
-            this.lapTheDocGia_view1.Size = new System.Drawing.Size(1100, 700);
-            this.lapTheDocGia_view1.TabIndex = 7;
-            this.lapTheDocGia_view1.Visible = false;
-            // 
-            // quanLyQuyDinh_view1
-            // 
-            this.quanLyQuyDinh_view1.BackColor = System.Drawing.Color.PowderBlue;
-            this.quanLyQuyDinh_view1.Location = new System.Drawing.Point(205, 0);
-            this.quanLyQuyDinh_view1.Name = "quanLyQuyDinh_view1";
-            this.quanLyQuyDinh_view1.Size = new System.Drawing.Size(1100, 700);
-            this.quanLyQuyDinh_view1.TabIndex = 12;
-            this.quanLyQuyDinh_view1.Visible = false;
             // 
             // lapbaocao_btn
             // 
-            this.lapbaocao_btn.Location = new System.Drawing.Point(0, 290);
+            this.lapbaocao_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lapbaocao_btn.Location = new System.Drawing.Point(11, 202);
+            this.lapbaocao_btn.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.lapbaocao_btn.Name = "lapbaocao_btn";
-            this.lapbaocao_btn.Size = new System.Drawing.Size(195, 52);
+            this.lapbaocao_btn.Size = new System.Drawing.Size(130, 34);
             this.lapbaocao_btn.TabIndex = 13;
             this.lapbaocao_btn.Text = "Lập báo cáo";
             this.lapbaocao_btn.UseVisualStyleBackColor = true;
@@ -181,17 +142,80 @@ namespace CNPM_QuanLyThuVien
             // lapBaoCao_view1
             // 
             this.lapBaoCao_view1.BackColor = System.Drawing.Color.PowderBlue;
-            this.lapBaoCao_view1.Location = new System.Drawing.Point(205, 0);
+            this.lapBaoCao_view1.Location = new System.Drawing.Point(154, 1);
+            this.lapBaoCao_view1.Margin = new System.Windows.Forms.Padding(1);
             this.lapBaoCao_view1.Name = "lapBaoCao_view1";
-            this.lapBaoCao_view1.Size = new System.Drawing.Size(1100, 700);
+            this.lapBaoCao_view1.Size = new System.Drawing.Size(733, 484);
             this.lapBaoCao_view1.TabIndex = 14;
+            // 
+            // quanLyQuyDinh_view1
+            // 
+            this.quanLyQuyDinh_view1.BackColor = System.Drawing.Color.PowderBlue;
+            this.quanLyQuyDinh_view1.Location = new System.Drawing.Point(154, 2);
+            this.quanLyQuyDinh_view1.Margin = new System.Windows.Forms.Padding(1);
+            this.quanLyQuyDinh_view1.Name = "quanLyQuyDinh_view1";
+            this.quanLyQuyDinh_view1.Size = new System.Drawing.Size(733, 484);
+            this.quanLyQuyDinh_view1.TabIndex = 12;
+            this.quanLyQuyDinh_view1.Visible = false;
+            this.quanLyQuyDinh_view1.Load += new System.EventHandler(this.quanLyQuyDinh_view1_Load);
+            // 
+            // lapPhieuThuTienPhat_view1
+            // 
+            this.lapPhieuThuTienPhat_view1.BackColor = System.Drawing.Color.PowderBlue;
+            this.lapPhieuThuTienPhat_view1.Location = new System.Drawing.Point(154, 0);
+            this.lapPhieuThuTienPhat_view1.Margin = new System.Windows.Forms.Padding(1);
+            this.lapPhieuThuTienPhat_view1.Name = "lapPhieuThuTienPhat_view1";
+            this.lapPhieuThuTienPhat_view1.Size = new System.Drawing.Size(733, 484);
+            this.lapPhieuThuTienPhat_view1.TabIndex = 11;
+            this.lapPhieuThuTienPhat_view1.Visible = false;
+            // 
+            // traCuuSach_view1
+            // 
+            this.traCuuSach_view1.BackColor = System.Drawing.Color.PowderBlue;
+            this.traCuuSach_view1.Location = new System.Drawing.Point(154, 1);
+            this.traCuuSach_view1.Margin = new System.Windows.Forms.Padding(1);
+            this.traCuuSach_view1.Name = "traCuuSach_view1";
+            this.traCuuSach_view1.Size = new System.Drawing.Size(733, 484);
+            this.traCuuSach_view1.TabIndex = 10;
+            this.traCuuSach_view1.Visible = false;
+            this.traCuuSach_view1.Load += new System.EventHandler(this.traCuuSach_view1_Load);
+            // 
+            // lapPhieuMuonTra_view1
+            // 
+            this.lapPhieuMuonTra_view1.BackColor = System.Drawing.Color.PowderBlue;
+            this.lapPhieuMuonTra_view1.Location = new System.Drawing.Point(154, 0);
+            this.lapPhieuMuonTra_view1.Margin = new System.Windows.Forms.Padding(1);
+            this.lapPhieuMuonTra_view1.Name = "lapPhieuMuonTra_view1";
+            this.lapPhieuMuonTra_view1.Size = new System.Drawing.Size(733, 484);
+            this.lapPhieuMuonTra_view1.TabIndex = 9;
+            this.lapPhieuMuonTra_view1.Visible = false;
+            // 
+            // lapPhieuNhapSach_view1
+            // 
+            this.lapPhieuNhapSach_view1.BackColor = System.Drawing.Color.PowderBlue;
+            this.lapPhieuNhapSach_view1.Location = new System.Drawing.Point(154, 2);
+            this.lapPhieuNhapSach_view1.Margin = new System.Windows.Forms.Padding(1);
+            this.lapPhieuNhapSach_view1.Name = "lapPhieuNhapSach_view1";
+            this.lapPhieuNhapSach_view1.Size = new System.Drawing.Size(733, 484);
+            this.lapPhieuNhapSach_view1.TabIndex = 8;
+            this.lapPhieuNhapSach_view1.Visible = false;
+            // 
+            // lapTheDocGia_view1
+            // 
+            this.lapTheDocGia_view1.BackColor = System.Drawing.Color.PowderBlue;
+            this.lapTheDocGia_view1.Location = new System.Drawing.Point(154, 0);
+            this.lapTheDocGia_view1.Margin = new System.Windows.Forms.Padding(1);
+            this.lapTheDocGia_view1.Name = "lapTheDocGia_view1";
+            this.lapTheDocGia_view1.Size = new System.Drawing.Size(733, 484);
+            this.lapTheDocGia_view1.TabIndex = 7;
+            this.lapTheDocGia_view1.Visible = false;
             // 
             // HomeForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.DarkSlateGray;
-            this.ClientSize = new System.Drawing.Size(1428, 744);
+            this.BackColor = System.Drawing.Color.CadetBlue;
+            this.ClientSize = new System.Drawing.Size(913, 484);
             this.Controls.Add(this.lapBaoCao_view1);
             this.Controls.Add(this.lapbaocao_btn);
             this.Controls.Add(this.quanLyQuyDinh_view1);
@@ -207,6 +231,7 @@ namespace CNPM_QuanLyThuVien
             this.Controls.Add(this.tracuusach_btn);
             this.Controls.Add(this.lapphieunhapsach_btn);
             this.Controls.Add(this.lapthedocgia_btn);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "HomeForm";
             this.Text = "Home";
             this.ResumeLayout(false);

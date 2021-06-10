@@ -51,18 +51,22 @@ namespace CNPM_QuanLyThuVien.HomeViewComponents
             // 
             // cancel_btn
             // 
-            this.cancel_btn.Location = new System.Drawing.Point(499, 524);
+            this.cancel_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cancel_btn.Location = new System.Drawing.Point(458, 397);
+            this.cancel_btn.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.cancel_btn.Name = "cancel_btn";
-            this.cancel_btn.Size = new System.Drawing.Size(109, 47);
+            this.cancel_btn.Size = new System.Drawing.Size(73, 31);
             this.cancel_btn.TabIndex = 31;
             this.cancel_btn.Text = "Cancel";
             this.cancel_btn.UseVisualStyleBackColor = true;
             // 
             // ok_btn
             // 
-            this.ok_btn.Location = new System.Drawing.Point(700, 524);
+            this.ok_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ok_btn.Location = new System.Drawing.Point(553, 397);
+            this.ok_btn.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.ok_btn.Name = "ok_btn";
-            this.ok_btn.Size = new System.Drawing.Size(109, 47);
+            this.ok_btn.Size = new System.Drawing.Size(73, 31);
             this.ok_btn.TabIndex = 30;
             this.ok_btn.Text = "OK";
             this.ok_btn.UseVisualStyleBackColor = true;
@@ -70,18 +74,20 @@ namespace CNPM_QuanLyThuVien.HomeViewComponents
             // hoten_txt
             // 
             this.hoten_txt.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.hoten_txt.Location = new System.Drawing.Point(108, 107);
+            this.hoten_txt.Location = new System.Drawing.Point(107, 101);
+            this.hoten_txt.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.hoten_txt.Name = "hoten_txt";
-            this.hoten_txt.Size = new System.Drawing.Size(497, 30);
+            this.hoten_txt.Size = new System.Drawing.Size(376, 23);
             this.hoten_txt.TabIndex = 24;
             // 
             // tracuusach_label
             // 
             this.tracuusach_label.AutoSize = true;
             this.tracuusach_label.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tracuusach_label.Location = new System.Drawing.Point(190, 40);
+            this.tracuusach_label.Location = new System.Drawing.Point(247, 30);
+            this.tracuusach_label.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.tracuusach_label.Name = "tracuusach_label";
-            this.tracuusach_label.Size = new System.Drawing.Size(321, 46);
+            this.tracuusach_label.Size = new System.Drawing.Size(219, 31);
             this.tracuusach_label.TabIndex = 17;
             this.tracuusach_label.Text = "TRA CỨU SÁCH";
             // 
@@ -94,18 +100,20 @@ namespace CNPM_QuanLyThuVien.HomeViewComponents
             "Tên sách",
             "Thể loại",
             "Tác giả"});
-            this.tracuu_combobox.Location = new System.Drawing.Point(635, 107);
+            this.tracuu_combobox.Location = new System.Drawing.Point(509, 101);
+            this.tracuu_combobox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.tracuu_combobox.Name = "tracuu_combobox";
-            this.tracuu_combobox.Size = new System.Drawing.Size(174, 33);
+            this.tracuu_combobox.Size = new System.Drawing.Size(117, 24);
             this.tracuu_combobox.TabIndex = 32;
-            this.tracuu_combobox.Text = "tìm theo...";
+            this.tracuu_combobox.Text = "Tìm theo...";
             // 
             // pictureBox1
             // 
             this.pictureBox1.Image = global::CNPM_QuanLyThuVien.Properties.Resources._1024px_Search_Icon;
-            this.pictureBox1.Location = new System.Drawing.Point(68, 107);
+            this.pictureBox1.Location = new System.Drawing.Point(80, 105);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(34, 30);
+            this.pictureBox1.Size = new System.Drawing.Size(23, 19);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 51;
             this.pictureBox1.TabStop = false;
@@ -126,9 +134,10 @@ namespace CNPM_QuanLyThuVien.HomeViewComponents
             this.listView2.Items.AddRange(new System.Windows.Forms.ListViewItem[] {
             listViewItem1,
             listViewItem2});
-            this.listView2.Location = new System.Drawing.Point(68, 176);
+            this.listView2.Location = new System.Drawing.Point(80, 150);
+            this.listView2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.listView2.Name = "listView2";
-            this.listView2.Size = new System.Drawing.Size(775, 324);
+            this.listView2.Size = new System.Drawing.Size(546, 222);
             this.listView2.TabIndex = 52;
             this.listView2.UseCompatibleStateImageBehavior = false;
             this.listView2.View = System.Windows.Forms.View.Details;
@@ -155,7 +164,7 @@ namespace CNPM_QuanLyThuVien.HomeViewComponents
             // 
             // TraCuuSach_view
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.PowderBlue;
             this.Controls.Add(this.listView2);
@@ -165,8 +174,9 @@ namespace CNPM_QuanLyThuVien.HomeViewComponents
             this.Controls.Add(this.ok_btn);
             this.Controls.Add(this.hoten_txt);
             this.Controls.Add(this.tracuusach_label);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "TraCuuSach_view";
-            this.Size = new System.Drawing.Size(900, 600);
+            this.Size = new System.Drawing.Size(733, 484);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

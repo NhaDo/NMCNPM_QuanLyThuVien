@@ -16,5 +16,10 @@ namespace CNPM_QuanLyThuVien
         {
             InitializeComponent();
         }
+
+        private void ngaymuon_label_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

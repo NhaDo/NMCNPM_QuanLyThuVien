@@ -16,5 +16,10 @@ namespace CNPM_QuanLyThuVien.HomeViewComponents.QuanLyQuyDinh
         {
             InitializeComponent();
         }
+
+        private void thoihan_label_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
