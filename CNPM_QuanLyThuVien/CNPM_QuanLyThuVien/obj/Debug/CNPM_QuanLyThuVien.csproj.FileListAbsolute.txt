@@ -48,3 +48,37 @@ C:\Users\Zedge Mobile\code\NMCNPM_QuanLyThuVien\CNPM_QuanLyThuVien\CNPM_QuanLyTh
 C:\Users\Zedge Mobile\code\NMCNPM_QuanLyThuVien\CNPM_QuanLyThuVien\CNPM_QuanLyThuVien\obj\Debug\CNPM_QuanLyThuVien.csproj.CoreCompileInputs.cache
 C:\Users\Zedge Mobile\code\NMCNPM_QuanLyThuVien\CNPM_QuanLyThuVien\CNPM_QuanLyThuVien\obj\Debug\CNPM_QuanLyThuVien.exe
 C:\Users\Zedge Mobile\code\NMCNPM_QuanLyThuVien\CNPM_QuanLyThuVien\CNPM_QuanLyThuVien\obj\Debug\CNPM_QuanLyThuVien.pdb
+C:\Users\NhaDo\Desktop\NMCNPM_QuanLyThuVien\CNPM_QuanLyThuVien\CNPM_QuanLyThuVien\bin\Debug\CNPM_QuanLyThuVien.exe.config
+C:\Users\NhaDo\Desktop\NMCNPM_QuanLyThuVien\CNPM_QuanLyThuVien\CNPM_QuanLyThuVien\bin\Debug\CNPM_QuanLyThuVien.exe
+C:\Users\NhaDo\Desktop\NMCNPM_QuanLyThuVien\CNPM_QuanLyThuVien\CNPM_QuanLyThuVien\bin\Debug\CNPM_QuanLyThuVien.pdb
+C:\Users\NhaDo\Desktop\NMCNPM_QuanLyThuVien\CNPM_QuanLyThuVien\CNPM_QuanLyThuVien\obj\Debug\CNPM_QuanLyThuVien.csprojAssemblyReference.cache
+C:\Users\NhaDo\Desktop\NMCNPM_QuanLyThuVien\CNPM_QuanLyThuVien\CNPM_QuanLyThuVien\obj\Debug\CNPM_QuanLyThuVien.HomeForm.resources
+C:\Users\NhaDo\Desktop\NMCNPM_QuanLyThuVien\CNPM_QuanLyThuVien\CNPM_QuanLyThuVien\obj\Debug\CNPM_QuanLyThuVien.HomeViewComponents.LapBaoCao.BaoCaoTheoTheLoai_view.resources
+C:\Users\NhaDo\Desktop\NMCNPM_QuanLyThuVien\CNPM_QuanLyThuVien\CNPM_QuanLyThuVien\obj\Debug\CNPM_QuanLyThuVien.HomeViewComponents.LapBaoCao.LapBaoCao_view.resources
+C:\Users\NhaDo\Desktop\NMCNPM_QuanLyThuVien\CNPM_QuanLyThuVien\CNPM_QuanLyThuVien\obj\Debug\CNPM_QuanLyThuVien.HomeViewComponents.LapBaoCao.ThongKeSachTraTre_view.resources
+C:\Users\NhaDo\Desktop\NMCNPM_QuanLyThuVien\CNPM_QuanLyThuVien\CNPM_QuanLyThuVien\obj\Debug\CNPM_QuanLyThuVien.LapPhieuMuonTra_view.resources
+C:\Users\NhaDo\Desktop\NMCNPM_QuanLyThuVien\CNPM_QuanLyThuVien\CNPM_QuanLyThuVien\obj\Debug\CNPM_QuanLyThuVien.LapPhieuNhapSach_view.resources
+C:\Users\NhaDo\Desktop\NMCNPM_QuanLyThuVien\CNPM_QuanLyThuVien\CNPM_QuanLyThuVien\obj\Debug\CNPM_QuanLyThuVien.HomeViewComponents.LapPhieuThuTienPhat_view.resources
+C:\Users\NhaDo\Desktop\NMCNPM_QuanLyThuVien\CNPM_QuanLyThuVien\CNPM_QuanLyThuVien\obj\Debug\CNPM_QuanLyThuVien.HomeViewComponents.QuanLyQuyDinh_view.resources
+C:\Users\NhaDo\Desktop\NMCNPM_QuanLyThuVien\CNPM_QuanLyThuVien\CNPM_QuanLyThuVien\obj\Debug\CNPM_QuanLyThuVien.HomeViewComponents.QuanLyQuyDinh.QuyDinh1_view.resources
+C:\Users\NhaDo\Desktop\NMCNPM_QuanLyThuVien\CNPM_QuanLyThuVien\CNPM_QuanLyThuVien\obj\Debug\CNPM_QuanLyThuVien.HomeViewComponents.QuanLyQuyDinh.QuyDinh2_view.resources
+C:\Users\NhaDo\Desktop\NMCNPM_QuanLyThuVien\CNPM_QuanLyThuVien\CNPM_QuanLyThuVien\obj\Debug\CNPM_QuanLyThuVien.HomeViewComponents.QuanLyQuyDinh.QuyDinh3_view.resources
+C:\Users\NhaDo\Desktop\NMCNPM_QuanLyThuVien\CNPM_QuanLyThuVien\CNPM_QuanLyThuVien\obj\Debug\CNPM_QuanLyThuVien.LoginForm.resources
+C:\Users\NhaDo\Desktop\NMCNPM_QuanLyThuVien\CNPM_QuanLyThuVien\CNPM_QuanLyThuVien\obj\Debug\CNPM_QuanLyThuVien.PhieuMuon_view.resources
+C:\Users\NhaDo\Desktop\NMCNPM_QuanLyThuVien\CNPM_QuanLyThuVien\CNPM_QuanLyThuVien\obj\Debug\CNPM_QuanLyThuVien.PhieuTra_view.resources
+C:\Users\NhaDo\Desktop\NMCNPM_QuanLyThuVien\CNPM_QuanLyThuVien\CNPM_QuanLyThuVien\obj\Debug\CNPM_QuanLyThuVien.Properties.Resources.resources
+C:\Users\NhaDo\Desktop\NMCNPM_QuanLyThuVien\CNPM_QuanLyThuVien\CNPM_QuanLyThuVien\obj\Debug\CNPM_QuanLyThuVien.LapTheDocGia_view.resources
+C:\Users\NhaDo\Desktop\NMCNPM_QuanLyThuVien\CNPM_QuanLyThuVien\CNPM_QuanLyThuVien\obj\Debug\CNPM_QuanLyThuVien.csproj.GenerateResource.cache
+C:\Users\NhaDo\Desktop\NMCNPM_QuanLyThuVien\CNPM_QuanLyThuVien\CNPM_QuanLyThuVien\obj\Debug\CNPM_QuanLyThuVien.csproj.CoreCompileInputs.cache
+C:\Users\NhaDo\Desktop\NMCNPM_QuanLyThuVien\CNPM_QuanLyThuVien\CNPM_QuanLyThuVien\obj\Debug\CNPM_QuanLyThuVien.exe
+C:\Users\NhaDo\Desktop\NMCNPM_QuanLyThuVien\CNPM_QuanLyThuVien\CNPM_QuanLyThuVien\obj\Debug\CNPM_QuanLyThuVien.pdb
+C:\Users\NhaDo\Desktop\NMCNPM_QuanLyThuVien\CNPM_QuanLyThuVien\CNPM_QuanLyThuVien\obj\Debug\CNPM_QuanLyThuVien.HomeViewComponents.QLTheDocGia.SuaTheDocGia_view.resources
+C:\Users\NhaDo\Desktop\NMCNPM_QuanLyThuVien\CNPM_QuanLyThuVien\CNPM_QuanLyThuVien\obj\Debug\CNPM_QuanLyThuVien.HomeViewComponents.LapBaoCao.QuanLyTheDocGia_view.resources
+C:\Users\NhaDo\Desktop\NMCNPM_QuanLyThuVien\CNPM_QuanLyThuVien\CNPM_QuanLyThuVien\obj\Debug\CNPM_QuanLyThuVien.HomeViewComponents.QLPhieuNhapSach.SuaPhieuNhapSach_view.resources
+C:\Users\NhaDo\Desktop\NMCNPM_QuanLyThuVien\CNPM_QuanLyThuVien\CNPM_QuanLyThuVien\obj\Debug\CNPM_QuanLyThuVien.HomeViewComponents.QLPhieuNhapSach.QuanLyPhieuNhapSach.resources
+C:\Users\NhaDo\Desktop\NMCNPM_QuanLyThuVien\CNPM_QuanLyThuVien\CNPM_QuanLyThuVien\obj\Debug\CNPM_QuanLyThuVien.HomeViewComponents.QLsach.SuaSach_view.resources
+C:\Users\NhaDo\Desktop\NMCNPM_QuanLyThuVien\CNPM_QuanLyThuVien\CNPM_QuanLyThuVien\obj\Debug\CNPM_QuanLyThuVien.HomeViewComponents.QLsach.ThemSach_view.resources
+C:\Users\NhaDo\Desktop\NMCNPM_QuanLyThuVien\CNPM_QuanLyThuVien\CNPM_QuanLyThuVien\obj\Debug\CNPM_QuanLyThuVien.HomeViewComponents.QLSach_view.resources
+C:\Users\NhaDo\Desktop\NMCNPM_QuanLyThuVien\CNPM_QuanLyThuVien\CNPM_QuanLyThuVien\obj\Debug\CNPM_QuanLyThuVien.HomeViewComponents.QLPhieuMuonTra.QLPhieuMuonTra_view.resources
+C:\Users\NhaDo\Desktop\NMCNPM_QuanLyThuVien\CNPM_QuanLyThuVien\CNPM_QuanLyThuVien\obj\Debug\CNPM_QuanLyThuVien.HomeViewComponents.QLPhieuThuTienPhat.SuaPhieuThuTienPhat_view.resources
+C:\Users\NhaDo\Desktop\NMCNPM_QuanLyThuVien\CNPM_QuanLyThuVien\CNPM_QuanLyThuVien\obj\Debug\CNPM_QuanLyThuVien.HomeViewComponents.QLPhieuThuTienPhat.QLPhieuThuTienPhat_view.resources

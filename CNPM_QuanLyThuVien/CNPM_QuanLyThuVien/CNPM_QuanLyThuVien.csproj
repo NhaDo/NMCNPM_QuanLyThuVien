@@ -64,22 +64,76 @@
     <Compile Include="HomeViewComponents\LapBaoCao.Designer.cs">
       <DependentUpon>LapBaoCao.cs</DependentUpon>
     </Compile>
+    <Compile Include="HomeViewComponents\QLPhieuMuonTra\QLPhieuMuonTra.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="HomeViewComponents\QLPhieuMuonTra\QLPhieuMuonTra.Designer.cs">
+      <DependentUpon>QLPhieuMuonTra.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HomeViewComponents\QLPhieuNhapSach\SuaPhieuNhapSach.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="HomeViewComponents\QLPhieuNhapSach\SuaPhieuNhapSach.Designer.cs">
+      <DependentUpon>SuaPhieuNhapSach.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HomeViewComponents\QLPhieuNhapSach\QuanLyPhieuNhapSach.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="HomeViewComponents\QLPhieuNhapSach\QuanLyPhieuNhapSach.Designer.cs">
+      <DependentUpon>QuanLyPhieuNhapSach.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HomeViewComponents\QLPhieuThuTienPhat\QLPhieuThuTienPhat.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="HomeViewComponents\QLPhieuThuTienPhat\QLPhieuThuTienPhat.Designer.cs">
+      <DependentUpon>QLPhieuThuTienPhat.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HomeViewComponents\QLPhieuThuTienPhat\SuaPhieuThuTienPhat.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="HomeViewComponents\QLPhieuThuTienPhat\SuaPhieuThuTienPhat.Designer.cs">
+      <DependentUpon>SuaPhieuThuTienPhat.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HomeViewComponents\QLsach\SuaSach.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="HomeViewComponents\QLsach\SuaSach.Designer.cs">
+      <DependentUpon>SuaSach.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HomeViewComponents\QLsach\ThemSach.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="HomeViewComponents\QLsach\ThemSach.Designer.cs">
+      <DependentUpon>ThemSach.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HomeViewComponents\QLTheDocGia\SuaTheDocGia.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="HomeViewComponents\QLTheDocGia\SuaTheDocGia.Designer.cs">
+      <DependentUpon>SuaTheDocGia.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HomeViewComponents\QLTheDocGia\QuanLyTheDocGia.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="HomeViewComponents\QLTheDocGia\QuanLyTheDocGia.Designer.cs">
+      <DependentUpon>QuanLyTheDocGia.cs</DependentUpon>
+    </Compile>
     <Compile Include="HomeViewComponents\LapBaoCao\ThongKeSachTraTre.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="HomeViewComponents\LapBaoCao\ThongKeSachTraTre.Designer.cs">
       <DependentUpon>ThongKeSachTraTre.cs</DependentUpon>
     </Compile>
-    <Compile Include="HomeViewComponents\LapPhieuMuonTra\PhieuMuon.cs">
+    <Compile Include="HomeViewComponents\QLPhieuMuonTra\LapPhieuMuonTra\PhieuMuon.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="HomeViewComponents\LapPhieuMuonTra\PhieuMuon.Designer.cs">
+    <Compile Include="HomeViewComponents\QLPhieuMuonTra\LapPhieuMuonTra\PhieuMuon.Designer.cs">
       <DependentUpon>PhieuMuon.cs</DependentUpon>
     </Compile>
-    <Compile Include="HomeViewComponents\QuanLyQuyDinh.cs">
+    <Compile Include="HomeViewComponents\QuanLyQuyDinh\QuanLyQuyDinh.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="HomeViewComponents\QuanLyQuyDinh.Designer.cs">
+    <Compile Include="HomeViewComponents\QuanLyQuyDinh\QuanLyQuyDinh.Designer.cs">
       <DependentUpon>QuanLyQuyDinh.cs</DependentUpon>
     </Compile>
     <Compile Include="HomeViewComponents\QuanLyQuyDinh\QuyDinh1.cs">
@@ -100,16 +154,16 @@
     <Compile Include="HomeViewComponents\QuanLyQuyDinh\QuyDinh3.Designer.cs">
       <DependentUpon>QuyDinh3.cs</DependentUpon>
     </Compile>
-    <Compile Include="HomeViewComponents\TraCuuSach.cs">
+    <Compile Include="HomeViewComponents\QLsach\QLSach.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="HomeViewComponents\TraCuuSach.Designer.cs">
-      <DependentUpon>TraCuuSach.cs</DependentUpon>
+    <Compile Include="HomeViewComponents\QLsach\QLSach.Designer.cs">
+      <DependentUpon>QLSach.cs</DependentUpon>
     </Compile>
-    <Compile Include="HomeViewComponents\LapPhieuThuTienPhat.cs">
+    <Compile Include="HomeViewComponents\QLPhieuThuTienPhat\LapPhieuThuTienPhat.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="HomeViewComponents\LapPhieuThuTienPhat.Designer.cs">
+    <Compile Include="HomeViewComponents\QLPhieuThuTienPhat\LapPhieuThuTienPhat.Designer.cs">
       <DependentUpon>LapPhieuThuTienPhat.cs</DependentUpon>
     </Compile>
     <Compile Include="LoginForm.cs">
@@ -118,30 +172,30 @@
     <Compile Include="LoginForm.Designer.cs">
       <DependentUpon>LoginForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="HomeViewComponents\LapPhieuMuonTra\PhieuTra.cs">
+    <Compile Include="HomeViewComponents\QLPhieuMuonTra\LapPhieuMuonTra\PhieuTra.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="HomeViewComponents\LapPhieuMuonTra\PhieuTra.Designer.cs">
+    <Compile Include="HomeViewComponents\QLPhieuMuonTra\LapPhieuMuonTra\PhieuTra.Designer.cs">
       <DependentUpon>PhieuTra.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="HomeViewComponents\LapTheDocGia.cs">
+    <Compile Include="HomeViewComponents\QLTheDocGia\LapTheDocGia.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="HomeViewComponents\LapTheDocGia.Designer.cs">
+    <Compile Include="HomeViewComponents\QLTheDocGia\LapTheDocGia.Designer.cs">
       <DependentUpon>LapTheDocGia.cs</DependentUpon>
     </Compile>
-    <Compile Include="HomeViewComponents\LapPhieuNhapSach.cs">
+    <Compile Include="HomeViewComponents\QLPhieuNhapSach\LapPhieuNhapSach.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="HomeViewComponents\LapPhieuNhapSach.Designer.cs">
+    <Compile Include="HomeViewComponents\QLPhieuNhapSach\LapPhieuNhapSach.Designer.cs">
       <DependentUpon>LapPhieuNhapSach.cs</DependentUpon>
     </Compile>
-    <Compile Include="HomeViewComponents\LapPhieuMuonTra.cs">
+    <Compile Include="HomeViewComponents\QLPhieuMuonTra\LapPhieuMuonTra.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="HomeViewComponents\LapPhieuMuonTra.Designer.cs">
+    <Compile Include="HomeViewComponents\QLPhieuMuonTra\LapPhieuMuonTra.Designer.cs">
       <DependentUpon>LapPhieuMuonTra.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="HomeForm.resx">
@@ -156,16 +210,40 @@
     <EmbeddedResource Include="HomeViewComponents\LapBaoCao\ThongKeSachTraTre.resx">
       <DependentUpon>ThongKeSachTraTre.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="HomeViewComponents\LapPhieuMuonTra.resx">
+    <EmbeddedResource Include="HomeViewComponents\QLPhieuMuonTra\LapPhieuMuonTra.resx">
       <DependentUpon>LapPhieuMuonTra.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="HomeViewComponents\LapPhieuNhapSach.resx">
+    <EmbeddedResource Include="HomeViewComponents\QLPhieuMuonTra\QLPhieuMuonTra.resx">
+      <DependentUpon>QLPhieuMuonTra.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HomeViewComponents\QLPhieuNhapSach\LapPhieuNhapSach.resx">
       <DependentUpon>LapPhieuNhapSach.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="HomeViewComponents\LapPhieuThuTienPhat.resx">
+    <EmbeddedResource Include="HomeViewComponents\QLPhieuNhapSach\SuaPhieuNhapSach.resx">
+      <DependentUpon>SuaPhieuNhapSach.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HomeViewComponents\QLPhieuNhapSach\QuanLyPhieuNhapSach.resx">
+      <DependentUpon>QuanLyPhieuNhapSach.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HomeViewComponents\QLPhieuThuTienPhat\LapPhieuThuTienPhat.resx">
       <DependentUpon>LapPhieuThuTienPhat.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="HomeViewComponents\QuanLyQuyDinh.resx">
+    <EmbeddedResource Include="HomeViewComponents\QLPhieuThuTienPhat\QLPhieuThuTienPhat.resx">
+      <DependentUpon>QLPhieuThuTienPhat.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HomeViewComponents\QLPhieuThuTienPhat\SuaPhieuThuTienPhat.resx">
+      <DependentUpon>SuaPhieuThuTienPhat.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HomeViewComponents\QLsach\SuaSach.resx">
+      <DependentUpon>SuaSach.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HomeViewComponents\QLsach\ThemSach.resx">
+      <DependentUpon>ThemSach.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HomeViewComponents\QLTheDocGia\SuaTheDocGia.resx">
+      <DependentUpon>SuaTheDocGia.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HomeViewComponents\QuanLyQuyDinh\QuanLyQuyDinh.resx">
       <DependentUpon>QuanLyQuyDinh.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="HomeViewComponents\QuanLyQuyDinh\QuyDinh1.resx">
@@ -177,16 +255,19 @@
     <EmbeddedResource Include="HomeViewComponents\QuanLyQuyDinh\QuyDinh3.resx">
       <DependentUpon>QuyDinh3.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="HomeViewComponents\TraCuuSach.resx">
-      <DependentUpon>TraCuuSach.cs</DependentUpon>
+    <EmbeddedResource Include="HomeViewComponents\QLTheDocGia\QuanLyTheDocGia.resx">
+      <DependentUpon>QuanLyTheDocGia.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HomeViewComponents\QLsach\QLSach.resx">
+      <DependentUpon>QLSach.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="LoginForm.resx">
       <DependentUpon>LoginForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="HomeViewComponents\LapPhieuMuonTra\PhieuMuon.resx">
+    <EmbeddedResource Include="HomeViewComponents\QLPhieuMuonTra\LapPhieuMuonTra\PhieuMuon.resx">
       <DependentUpon>PhieuMuon.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="HomeViewComponents\LapPhieuMuonTra\PhieuTra.resx">
+    <EmbeddedResource Include="HomeViewComponents\QLPhieuMuonTra\LapPhieuMuonTra\PhieuTra.resx">
       <DependentUpon>PhieuTra.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -199,7 +280,7 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
-    <EmbeddedResource Include="HomeViewComponents\LapTheDocGia.resx">
+    <EmbeddedResource Include="HomeViewComponents\QLTheDocGia\LapTheDocGia.resx">
       <DependentUpon>LapTheDocGia.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
@@ -218,5 +299,6 @@
   <ItemGroup>
     <None Include="Resources\1024px-Search_Icon.png" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

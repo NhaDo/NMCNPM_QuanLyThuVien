@@ -19,76 +19,49 @@ namespace CNPM_QuanLyThuVien
 
         private void clear_view_components()
         {
-            lapPhieuMuonTra_view1.Visible = false;
-            lapPhieuNhapSach_view1.Visible = false;
-            lapPhieuMuonTra_view1.Visible = false;
-            traCuuSach_view1.Visible = false;
-            lapPhieuThuTienPhat_view1.Visible = false;
-            quanLyQuyDinh_view1.Visible = false;
+            quanLyTheDocGia_view1.Visible = false;
+            quanLyPhieuNhapSach1.Visible = false;
+            qlPhieuMuonTra_view1.Visible = false;
+            qlSach_view1.Visible = false;
+            qlPhieuThuTienPhat_view1.Visible = false;
+
 
         }
+        private void QLthedocgia_btn_Click(object sender, EventArgs e)
 
-        private void lapthedocgia_btn_Click(object sender, EventArgs e)
         {
             clear_view_components();
-            lapTheDocGia_view1.Visible = true;
-            lapTheDocGia_view1.BringToFront();
+            quanLyTheDocGia_view1.Visible = true;
+            quanLyTheDocGia_view1.BringToFront();
+
         }
 
-        private void lapphieunhapsach_btn_Click(object sender, EventArgs e)
-        
+        private void QLphieunhapsach_btn_Click(object sender, EventArgs e)
         {
             clear_view_components();
-            lapPhieuNhapSach_view1.Visible = true;
-            lapPhieuNhapSach_view1.BringToFront();
+            quanLyPhieuNhapSach1.Visible = true;
+            quanLyPhieuNhapSach1.BringToFront();
         }
 
-        private void lapphieumuontra_btn_Click(object sender, EventArgs e)
+        private void QLsach_btn_Click(object sender, EventArgs e)
         {
             clear_view_components();
-
-            lapPhieuMuonTra_view1.Visible = true;
-            lapPhieuMuonTra_view1.BringToFront();
+            qlSach_view1.Visible = true;
+            qlSach_view1.BringToFront();
         }
 
-        private void tracuusach_btn_Click(object sender, EventArgs e)
+        private void QLphieumuontra_btn_Click(object sender, EventArgs e)
         {
             clear_view_components();
-
-            traCuuSach_view1.Visible = true;
-            traCuuSach_view1.BringToFront();
+            qlPhieuMuonTra_view1.Visible = true;
+            qlPhieuMuonTra_view1.BringToFront();
         }
 
-        private void lapphieuthutienphat_btn_Click(object sender, EventArgs e)
+        private void QLphieuthutienphat_btn_Click(object sender, EventArgs e)
         {
             clear_view_components();
-            lapPhieuThuTienPhat_view1.Visible = true;
-            lapPhieuThuTienPhat_view1.BringToFront();
-        }
-
-        private void quanlyquydinh_btn_Click(object sender, EventArgs e)
-        {
-            clear_view_components();
-            quanLyQuyDinh_view1.Visible = true;
-            quanLyQuyDinh_view1.BringToFront();
-        }
-
-        private void lapbaocao_btn_Click(object sender, EventArgs e)
-        {
-            clear_view_components();
-            lapBaoCao_view1.Visible = true;
-            lapBaoCao_view1.BringToFront();
-
-        }
-
-        private void traCuuSach_view1_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void quanLyQuyDinh_view1_Load(object sender, EventArgs e)
-        {
-
+            qlPhieuThuTienPhat_view1.Visible = true;
+            qlPhieuThuTienPhat_view1.BringToFront();
         }
     }
 }
