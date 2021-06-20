@@ -35,35 +35,30 @@ namespace CNPM_QuanLyThuVien.HomeViewComponents
             this.them_btn = new System.Windows.Forms.Button();
             this.sua_btn = new System.Windows.Forms.Button();
             this.xoa_btn = new System.Windows.Forms.Button();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.macuonsach = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.masach = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.tensach = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.theloai = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.tacgia = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.tinhtrang = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dgv_book = new System.Windows.Forms.DataGridView();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.themSach_view1 = new CNPM_QuanLyThuVien.HomeViewComponents.QLsach.ThemSach_view();
             this.suaSach_view1 = new CNPM_QuanLyThuVien.HomeViewComponents.QLsach.SuaSach_view();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgv_book)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // hoten_txt
             // 
             this.hoten_txt.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.hoten_txt.Location = new System.Drawing.Point(160, 155);
+            this.hoten_txt.Location = new System.Drawing.Point(142, 124);
+            this.hoten_txt.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.hoten_txt.Name = "hoten_txt";
-            this.hoten_txt.Size = new System.Drawing.Size(562, 30);
+            this.hoten_txt.Size = new System.Drawing.Size(500, 26);
             this.hoten_txt.TabIndex = 24;
             // 
             // tracuusach_label
             // 
             this.tracuusach_label.AutoSize = true;
             this.tracuusach_label.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tracuusach_label.Location = new System.Drawing.Point(370, 46);
+            this.tracuusach_label.Location = new System.Drawing.Point(329, 37);
             this.tracuusach_label.Name = "tracuusach_label";
-            this.tracuusach_label.Size = new System.Drawing.Size(318, 46);
+            this.tracuusach_label.Size = new System.Drawing.Size(271, 39);
             this.tracuusach_label.TabIndex = 17;
             this.tracuusach_label.Text = "QUẢN LÝ SÁCH";
             // 
@@ -76,18 +71,20 @@ namespace CNPM_QuanLyThuVien.HomeViewComponents
             "Tên sách",
             "Thể loại",
             "Tác giả"});
-            this.tracuu_combobox.Location = new System.Drawing.Point(764, 155);
+            this.tracuu_combobox.Location = new System.Drawing.Point(679, 124);
+            this.tracuu_combobox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.tracuu_combobox.Name = "tracuu_combobox";
-            this.tracuu_combobox.Size = new System.Drawing.Size(174, 33);
+            this.tracuu_combobox.Size = new System.Drawing.Size(155, 28);
             this.tracuu_combobox.TabIndex = 32;
             this.tracuu_combobox.Text = "Tìm theo...";
             // 
             // them_btn
             // 
             this.them_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.them_btn.Location = new System.Drawing.Point(122, 625);
+            this.them_btn.Location = new System.Drawing.Point(108, 500);
+            this.them_btn.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.them_btn.Name = "them_btn";
-            this.them_btn.Size = new System.Drawing.Size(110, 48);
+            this.them_btn.Size = new System.Drawing.Size(98, 38);
             this.them_btn.TabIndex = 70;
             this.them_btn.Text = "Thêm";
             this.them_btn.UseVisualStyleBackColor = true;
@@ -96,9 +93,10 @@ namespace CNPM_QuanLyThuVien.HomeViewComponents
             // sua_btn
             // 
             this.sua_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.sua_btn.Location = new System.Drawing.Point(373, 625);
+            this.sua_btn.Location = new System.Drawing.Point(332, 500);
+            this.sua_btn.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.sua_btn.Name = "sua_btn";
-            this.sua_btn.Size = new System.Drawing.Size(110, 48);
+            this.sua_btn.Size = new System.Drawing.Size(98, 38);
             this.sua_btn.TabIndex = 72;
             this.sua_btn.Text = "Sửa";
             this.sua_btn.UseVisualStyleBackColor = true;
@@ -107,78 +105,33 @@ namespace CNPM_QuanLyThuVien.HomeViewComponents
             // xoa_btn
             // 
             this.xoa_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.xoa_btn.Location = new System.Drawing.Point(248, 625);
+            this.xoa_btn.Location = new System.Drawing.Point(220, 500);
+            this.xoa_btn.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.xoa_btn.Name = "xoa_btn";
-            this.xoa_btn.Size = new System.Drawing.Size(110, 48);
+            this.xoa_btn.Size = new System.Drawing.Size(98, 38);
             this.xoa_btn.TabIndex = 71;
             this.xoa_btn.Text = "Xóa";
             this.xoa_btn.UseVisualStyleBackColor = true;
             // 
-            // dataGridView1
+            // dgv_book
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.macuonsach,
-            this.masach,
-            this.tensach,
-            this.theloai,
-            this.tacgia,
-            this.tinhtrang});
-            this.dataGridView1.Location = new System.Drawing.Point(106, 233);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.RowHeadersWidth = 62;
-            this.dataGridView1.RowTemplate.Height = 28;
-            this.dataGridView1.Size = new System.Drawing.Size(915, 349);
-            this.dataGridView1.TabIndex = 73;
-            // 
-            // macuonsach
-            // 
-            this.macuonsach.HeaderText = "Mã Cuốn Sách";
-            this.macuonsach.MinimumWidth = 8;
-            this.macuonsach.Name = "macuonsach";
-            this.macuonsach.Width = 150;
-            // 
-            // masach
-            // 
-            this.masach.HeaderText = "Mã sách";
-            this.masach.MinimumWidth = 8;
-            this.masach.Name = "masach";
-            this.masach.Width = 150;
-            // 
-            // tensach
-            // 
-            this.tensach.HeaderText = "Tên Sách";
-            this.tensach.MinimumWidth = 8;
-            this.tensach.Name = "tensach";
-            this.tensach.Width = 150;
-            // 
-            // theloai
-            // 
-            this.theloai.HeaderText = "Thể Loại";
-            this.theloai.MinimumWidth = 8;
-            this.theloai.Name = "theloai";
-            this.theloai.Width = 150;
-            // 
-            // tacgia
-            // 
-            this.tacgia.HeaderText = "Tác Giả";
-            this.tacgia.MinimumWidth = 8;
-            this.tacgia.Name = "tacgia";
-            this.tacgia.Width = 150;
-            // 
-            // tinhtrang
-            // 
-            this.tinhtrang.HeaderText = "Tình trạng";
-            this.tinhtrang.MinimumWidth = 8;
-            this.tinhtrang.Name = "tinhtrang";
-            this.tinhtrang.Width = 150;
+            this.dgv_book.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgv_book.Location = new System.Drawing.Point(94, 186);
+            this.dgv_book.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.dgv_book.Name = "dgv_book";
+            this.dgv_book.RowHeadersWidth = 62;
+            this.dgv_book.RowTemplate.Height = 28;
+            this.dgv_book.Size = new System.Drawing.Size(813, 279);
+            this.dgv_book.TabIndex = 73;
+            this.dgv_book.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
             // pictureBox1
             // 
             this.pictureBox1.Image = global::CNPM_QuanLyThuVien.Properties.Resources._1024px_Search_Icon;
-            this.pictureBox1.Location = new System.Drawing.Point(122, 155);
+            this.pictureBox1.Location = new System.Drawing.Point(108, 124);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(34, 29);
+            this.pictureBox1.Size = new System.Drawing.Size(30, 23);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 51;
             this.pictureBox1.TabStop = false;
@@ -186,27 +139,29 @@ namespace CNPM_QuanLyThuVien.HomeViewComponents
             // themSach_view1
             // 
             this.themSach_view1.BackColor = System.Drawing.Color.PowderBlue;
-            this.themSach_view1.Location = new System.Drawing.Point(17, 679);
+            this.themSach_view1.Location = new System.Drawing.Point(15, 543);
+            this.themSach_view1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.themSach_view1.Name = "themSach_view1";
-            this.themSach_view1.Size = new System.Drawing.Size(1100, 745);
+            this.themSach_view1.Size = new System.Drawing.Size(978, 596);
             this.themSach_view1.TabIndex = 74;
             // 
             // suaSach_view1
             // 
             this.suaSach_view1.BackColor = System.Drawing.Color.PowderBlue;
-            this.suaSach_view1.Location = new System.Drawing.Point(93, 702);
+            this.suaSach_view1.Location = new System.Drawing.Point(83, 562);
+            this.suaSach_view1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.suaSach_view1.Name = "suaSach_view1";
-            this.suaSach_view1.Size = new System.Drawing.Size(1100, 745);
+            this.suaSach_view1.Size = new System.Drawing.Size(978, 596);
             this.suaSach_view1.TabIndex = 75;
             // 
             // QLSach_view
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.PowderBlue;
             this.Controls.Add(this.suaSach_view1);
             this.Controls.Add(this.themSach_view1);
-            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.dgv_book);
             this.Controls.Add(this.them_btn);
             this.Controls.Add(this.sua_btn);
             this.Controls.Add(this.xoa_btn);
@@ -214,9 +169,10 @@ namespace CNPM_QuanLyThuVien.HomeViewComponents
             this.Controls.Add(this.tracuu_combobox);
             this.Controls.Add(this.hoten_txt);
             this.Controls.Add(this.tracuusach_label);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "QLSach_view";
-            this.Size = new System.Drawing.Size(1100, 745);
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            this.Size = new System.Drawing.Size(978, 596);
+            ((System.ComponentModel.ISupportInitialize)(this.dgv_book)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -231,13 +187,7 @@ namespace CNPM_QuanLyThuVien.HomeViewComponents
         private System.Windows.Forms.Button them_btn;
         private System.Windows.Forms.Button sua_btn;
         private System.Windows.Forms.Button xoa_btn;
-        private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn macuonsach;
-        private System.Windows.Forms.DataGridViewTextBoxColumn masach;
-        private System.Windows.Forms.DataGridViewTextBoxColumn tensach;
-        private System.Windows.Forms.DataGridViewTextBoxColumn theloai;
-        private System.Windows.Forms.DataGridViewTextBoxColumn tacgia;
-        private System.Windows.Forms.DataGridViewTextBoxColumn tinhtrang;
+        private System.Windows.Forms.DataGridView dgv_book;
         private QLsach.ThemSach_view themSach_view1;
         private QLsach.SuaSach_view suaSach_view1;
     }

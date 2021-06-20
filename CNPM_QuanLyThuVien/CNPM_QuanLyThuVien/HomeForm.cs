@@ -7,11 +7,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Data.SqlClient;
 
 namespace CNPM_QuanLyThuVien
 {
     public partial class HomeForm : Form
     {
+
         public HomeForm()
         {
             InitializeComponent();
@@ -62,6 +64,16 @@ namespace CNPM_QuanLyThuVien
             clear_view_components();
             qlPhieuThuTienPhat_view1.Visible = true;
             qlPhieuThuTienPhat_view1.BringToFront();
+        }
+
+        private void qlPhieuThuTienPhat_view1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void HomeForm_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

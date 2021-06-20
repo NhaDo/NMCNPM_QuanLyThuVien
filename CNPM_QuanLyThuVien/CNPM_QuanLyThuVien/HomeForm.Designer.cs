@@ -47,9 +47,10 @@ namespace CNPM_QuanLyThuVien
             // QLthedocgia_btn
             // 
             this.QLthedocgia_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.QLthedocgia_btn.Location = new System.Drawing.Point(2, 17);
+            this.QLthedocgia_btn.Location = new System.Drawing.Point(2, 14);
+            this.QLthedocgia_btn.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.QLthedocgia_btn.Name = "QLthedocgia_btn";
-            this.QLthedocgia_btn.Size = new System.Drawing.Size(223, 52);
+            this.QLthedocgia_btn.Size = new System.Drawing.Size(198, 42);
             this.QLthedocgia_btn.TabIndex = 0;
             this.QLthedocgia_btn.Text = "Quản lý thẻ độc giả";
             this.QLthedocgia_btn.UseVisualStyleBackColor = true;
@@ -58,9 +59,10 @@ namespace CNPM_QuanLyThuVien
             // QLphieunhapsach_btn
             // 
             this.QLphieunhapsach_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.QLphieunhapsach_btn.Location = new System.Drawing.Point(2, 77);
+            this.QLphieunhapsach_btn.Location = new System.Drawing.Point(2, 62);
+            this.QLphieunhapsach_btn.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.QLphieunhapsach_btn.Name = "QLphieunhapsach_btn";
-            this.QLphieunhapsach_btn.Size = new System.Drawing.Size(223, 52);
+            this.QLphieunhapsach_btn.Size = new System.Drawing.Size(198, 42);
             this.QLphieunhapsach_btn.TabIndex = 1;
             this.QLphieunhapsach_btn.Text = "Quản lý phiếu nhập sách";
             this.QLphieunhapsach_btn.UseVisualStyleBackColor = true;
@@ -69,9 +71,10 @@ namespace CNPM_QuanLyThuVien
             // QLsach_btn
             // 
             this.QLsach_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.QLsach_btn.Location = new System.Drawing.Point(2, 135);
+            this.QLsach_btn.Location = new System.Drawing.Point(2, 108);
+            this.QLsach_btn.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.QLsach_btn.Name = "QLsach_btn";
-            this.QLsach_btn.Size = new System.Drawing.Size(223, 52);
+            this.QLsach_btn.Size = new System.Drawing.Size(198, 42);
             this.QLsach_btn.TabIndex = 2;
             this.QLsach_btn.Text = "Quản lý sách";
             this.QLsach_btn.UseVisualStyleBackColor = true;
@@ -80,9 +83,10 @@ namespace CNPM_QuanLyThuVien
             // QLphieumuontra_btn
             // 
             this.QLphieumuontra_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.QLphieumuontra_btn.Location = new System.Drawing.Point(2, 194);
+            this.QLphieumuontra_btn.Location = new System.Drawing.Point(2, 155);
+            this.QLphieumuontra_btn.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.QLphieumuontra_btn.Name = "QLphieumuontra_btn";
-            this.QLphieumuontra_btn.Size = new System.Drawing.Size(223, 52);
+            this.QLphieumuontra_btn.Size = new System.Drawing.Size(198, 42);
             this.QLphieumuontra_btn.TabIndex = 3;
             this.QLphieumuontra_btn.Text = "Quản lý phiếu mượn / trả";
             this.QLphieumuontra_btn.UseVisualStyleBackColor = true;
@@ -91,9 +95,10 @@ namespace CNPM_QuanLyThuVien
             // QLphieuthutienphat_btn
             // 
             this.QLphieuthutienphat_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.QLphieuthutienphat_btn.Location = new System.Drawing.Point(2, 252);
+            this.QLphieuthutienphat_btn.Location = new System.Drawing.Point(2, 202);
+            this.QLphieuthutienphat_btn.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.QLphieuthutienphat_btn.Name = "QLphieuthutienphat_btn";
-            this.QLphieuthutienphat_btn.Size = new System.Drawing.Size(223, 78);
+            this.QLphieuthutienphat_btn.Size = new System.Drawing.Size(198, 62);
             this.QLphieuthutienphat_btn.TabIndex = 4;
             this.QLphieuthutienphat_btn.Text = "Quản lý phiếu thu tiền phạt";
             this.QLphieuthutienphat_btn.UseVisualStyleBackColor = true;
@@ -102,9 +107,10 @@ namespace CNPM_QuanLyThuVien
             // quanlyquydinh_btn
             // 
             this.quanlyquydinh_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.quanlyquydinh_btn.Location = new System.Drawing.Point(2, 394);
+            this.quanlyquydinh_btn.Location = new System.Drawing.Point(2, 315);
+            this.quanlyquydinh_btn.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.quanlyquydinh_btn.Name = "quanlyquydinh_btn";
-            this.quanlyquydinh_btn.Size = new System.Drawing.Size(223, 52);
+            this.quanlyquydinh_btn.Size = new System.Drawing.Size(198, 42);
             this.quanlyquydinh_btn.TabIndex = 5;
             this.quanlyquydinh_btn.Text = "Quản lý quy định";
             this.quanlyquydinh_btn.UseVisualStyleBackColor = true;
@@ -112,17 +118,19 @@ namespace CNPM_QuanLyThuVien
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.panel1.Location = new System.Drawing.Point(225, 0);
+            this.panel1.Location = new System.Drawing.Point(200, 0);
+            this.panel1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(3, 748);
+            this.panel1.Size = new System.Drawing.Size(3, 598);
             this.panel1.TabIndex = 6;
             // 
             // lapbaocao_btn
             // 
             this.lapbaocao_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lapbaocao_btn.Location = new System.Drawing.Point(2, 336);
+            this.lapbaocao_btn.Location = new System.Drawing.Point(2, 269);
+            this.lapbaocao_btn.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.lapbaocao_btn.Name = "lapbaocao_btn";
-            this.lapbaocao_btn.Size = new System.Drawing.Size(223, 52);
+            this.lapbaocao_btn.Size = new System.Drawing.Size(198, 42);
             this.lapbaocao_btn.TabIndex = 13;
             this.lapbaocao_btn.Text = "Lập báo cáo";
             this.lapbaocao_btn.UseVisualStyleBackColor = true;
@@ -130,53 +138,59 @@ namespace CNPM_QuanLyThuVien
             // qlPhieuMuonTra_view1
             // 
             this.qlPhieuMuonTra_view1.BackColor = System.Drawing.Color.PowderBlue;
-            this.qlPhieuMuonTra_view1.Location = new System.Drawing.Point(229, 0);
+            this.qlPhieuMuonTra_view1.Location = new System.Drawing.Point(204, 0);
+            this.qlPhieuMuonTra_view1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.qlPhieuMuonTra_view1.Name = "qlPhieuMuonTra_view1";
-            this.qlPhieuMuonTra_view1.Size = new System.Drawing.Size(1100, 745);
+            this.qlPhieuMuonTra_view1.Size = new System.Drawing.Size(978, 596);
             this.qlPhieuMuonTra_view1.TabIndex = 17;
             this.qlPhieuMuonTra_view1.Visible = false;
             // 
             // qlSach_view1
             // 
             this.qlSach_view1.BackColor = System.Drawing.Color.PowderBlue;
-            this.qlSach_view1.Location = new System.Drawing.Point(229, 0);
+            this.qlSach_view1.Location = new System.Drawing.Point(204, 0);
+            this.qlSach_view1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.qlSach_view1.Name = "qlSach_view1";
-            this.qlSach_view1.Size = new System.Drawing.Size(1100, 745);
+            this.qlSach_view1.Size = new System.Drawing.Size(978, 596);
             this.qlSach_view1.TabIndex = 16;
             this.qlSach_view1.Visible = false;
             // 
             // quanLyPhieuNhapSach1
             // 
             this.quanLyPhieuNhapSach1.BackColor = System.Drawing.Color.PowderBlue;
-            this.quanLyPhieuNhapSach1.Location = new System.Drawing.Point(229, 0);
+            this.quanLyPhieuNhapSach1.Location = new System.Drawing.Point(204, 0);
+            this.quanLyPhieuNhapSach1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.quanLyPhieuNhapSach1.Name = "quanLyPhieuNhapSach1";
-            this.quanLyPhieuNhapSach1.Size = new System.Drawing.Size(1100, 745);
+            this.quanLyPhieuNhapSach1.Size = new System.Drawing.Size(978, 596);
             this.quanLyPhieuNhapSach1.TabIndex = 15;
             this.quanLyPhieuNhapSach1.Visible = false;
             // 
             // quanLyTheDocGia_view1
             // 
             this.quanLyTheDocGia_view1.BackColor = System.Drawing.Color.PowderBlue;
-            this.quanLyTheDocGia_view1.Location = new System.Drawing.Point(229, 0);
+            this.quanLyTheDocGia_view1.Location = new System.Drawing.Point(204, 0);
+            this.quanLyTheDocGia_view1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.quanLyTheDocGia_view1.Name = "quanLyTheDocGia_view1";
-            this.quanLyTheDocGia_view1.Size = new System.Drawing.Size(1100, 745);
+            this.quanLyTheDocGia_view1.Size = new System.Drawing.Size(978, 596);
             this.quanLyTheDocGia_view1.TabIndex = 14;
             this.quanLyTheDocGia_view1.Visible = false;
             // 
             // qlPhieuThuTienPhat_view1
             // 
             this.qlPhieuThuTienPhat_view1.BackColor = System.Drawing.Color.PowderBlue;
-            this.qlPhieuThuTienPhat_view1.Location = new System.Drawing.Point(229, 0);
+            this.qlPhieuThuTienPhat_view1.Location = new System.Drawing.Point(204, 0);
+            this.qlPhieuThuTienPhat_view1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.qlPhieuThuTienPhat_view1.Name = "qlPhieuThuTienPhat_view1";
-            this.qlPhieuThuTienPhat_view1.Size = new System.Drawing.Size(1100, 745);
+            this.qlPhieuThuTienPhat_view1.Size = new System.Drawing.Size(978, 596);
             this.qlPhieuThuTienPhat_view1.TabIndex = 18;
+            this.qlPhieuThuTienPhat_view1.Load += new System.EventHandler(this.qlPhieuThuTienPhat_view1_Load);
             // 
             // HomeForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.CadetBlue;
-            this.ClientSize = new System.Drawing.Size(1370, 745);
+            this.ClientSize = new System.Drawing.Size(1218, 596);
             this.Controls.Add(this.qlPhieuThuTienPhat_view1);
             this.Controls.Add(this.qlPhieuMuonTra_view1);
             this.Controls.Add(this.qlSach_view1);
@@ -190,8 +204,10 @@ namespace CNPM_QuanLyThuVien
             this.Controls.Add(this.QLsach_btn);
             this.Controls.Add(this.QLphieunhapsach_btn);
             this.Controls.Add(this.QLthedocgia_btn);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "HomeForm";
             this.Text = "Home";
+            this.Load += new System.EventHandler(this.HomeForm_Load);
             this.ResumeLayout(false);
 
         }

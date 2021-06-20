@@ -15,6 +15,9 @@ namespace CNPM_QuanLyThuVien.HomeViewComponents.LapBaoCao
         public QuanLyTheDocGia_view()
         {
             InitializeComponent();
+            connectsql.OpenConnection();
+            dgv_docgia.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
+            dgv_docgia.DataSource = connectsql.GetDataTable("select DG.MaDocGia as 'Mã Độc Giả', DG.TenDocGia as 'Tên Độc Giả', LDG.TenLoaiDocGia as 'Tên Loại Độc Giả', DG.NgaySinh as 'Ngày Sinh', DG.DiaChi as 'Địa Chỉ', DG.Email, DG.NgayLapThe as 'Ngày Lập Thẻ' From DOCGIA DG inner join LOAIDOCGIA LDG On DG.MaLoaiDocGia = LDG.MaLoaiDocGia;");
         }
 
 
@@ -37,6 +40,11 @@ namespace CNPM_QuanLyThuVien.HomeViewComponents.LapBaoCao
             suaTheDocGia_view1.Visible = true;
             suaTheDocGia_view1.Location = new Point(0, 0);
             suaTheDocGia_view1.BringToFront();
+        }
+
+        private void QuanLyTheDocGia_view_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -82,3 +82,37 @@ C:\Users\NhaDo\Desktop\NMCNPM_QuanLyThuVien\CNPM_QuanLyThuVien\CNPM_QuanLyThuVie
 C:\Users\NhaDo\Desktop\NMCNPM_QuanLyThuVien\CNPM_QuanLyThuVien\CNPM_QuanLyThuVien\obj\Debug\CNPM_QuanLyThuVien.HomeViewComponents.QLPhieuMuonTra.QLPhieuMuonTra_view.resources
 C:\Users\NhaDo\Desktop\NMCNPM_QuanLyThuVien\CNPM_QuanLyThuVien\CNPM_QuanLyThuVien\obj\Debug\CNPM_QuanLyThuVien.HomeViewComponents.QLPhieuThuTienPhat.SuaPhieuThuTienPhat_view.resources
 C:\Users\NhaDo\Desktop\NMCNPM_QuanLyThuVien\CNPM_QuanLyThuVien\CNPM_QuanLyThuVien\obj\Debug\CNPM_QuanLyThuVien.HomeViewComponents.QLPhieuThuTienPhat.QLPhieuThuTienPhat_view.resources
+D:\cnpm\New folder\NMCNPM_QuanLyThuVien\CNPM_QuanLyThuVien\CNPM_QuanLyThuVien\bin\Debug\CNPM_QuanLyThuVien.exe.config
+D:\cnpm\New folder\NMCNPM_QuanLyThuVien\CNPM_QuanLyThuVien\CNPM_QuanLyThuVien\bin\Debug\CNPM_QuanLyThuVien.exe
+D:\cnpm\New folder\NMCNPM_QuanLyThuVien\CNPM_QuanLyThuVien\CNPM_QuanLyThuVien\bin\Debug\CNPM_QuanLyThuVien.pdb
+D:\cnpm\New folder\NMCNPM_QuanLyThuVien\CNPM_QuanLyThuVien\CNPM_QuanLyThuVien\obj\Debug\CNPM_QuanLyThuVien.csproj.AssemblyReference.cache
+D:\cnpm\New folder\NMCNPM_QuanLyThuVien\CNPM_QuanLyThuVien\CNPM_QuanLyThuVien\obj\Debug\CNPM_QuanLyThuVien.HomeForm.resources
+D:\cnpm\New folder\NMCNPM_QuanLyThuVien\CNPM_QuanLyThuVien\CNPM_QuanLyThuVien\obj\Debug\CNPM_QuanLyThuVien.HomeViewComponents.LapBaoCao.BaoCaoTheoTheLoai_view.resources
+D:\cnpm\New folder\NMCNPM_QuanLyThuVien\CNPM_QuanLyThuVien\CNPM_QuanLyThuVien\obj\Debug\CNPM_QuanLyThuVien.HomeViewComponents.LapBaoCao.LapBaoCao_view.resources
+D:\cnpm\New folder\NMCNPM_QuanLyThuVien\CNPM_QuanLyThuVien\CNPM_QuanLyThuVien\obj\Debug\CNPM_QuanLyThuVien.HomeViewComponents.LapBaoCao.ThongKeSachTraTre_view.resources
+D:\cnpm\New folder\NMCNPM_QuanLyThuVien\CNPM_QuanLyThuVien\CNPM_QuanLyThuVien\obj\Debug\CNPM_QuanLyThuVien.LapPhieuMuonTra_view.resources
+D:\cnpm\New folder\NMCNPM_QuanLyThuVien\CNPM_QuanLyThuVien\CNPM_QuanLyThuVien\obj\Debug\CNPM_QuanLyThuVien.HomeViewComponents.QLPhieuMuonTra.QLPhieuMuonTra_view.resources
+D:\cnpm\New folder\NMCNPM_QuanLyThuVien\CNPM_QuanLyThuVien\CNPM_QuanLyThuVien\obj\Debug\CNPM_QuanLyThuVien.LapPhieuNhapSach_view.resources
+D:\cnpm\New folder\NMCNPM_QuanLyThuVien\CNPM_QuanLyThuVien\CNPM_QuanLyThuVien\obj\Debug\CNPM_QuanLyThuVien.HomeViewComponents.QLPhieuNhapSach.SuaPhieuNhapSach_view.resources
+D:\cnpm\New folder\NMCNPM_QuanLyThuVien\CNPM_QuanLyThuVien\CNPM_QuanLyThuVien\obj\Debug\CNPM_QuanLyThuVien.HomeViewComponents.QLPhieuNhapSach.QuanLyPhieuNhapSach.resources
+D:\cnpm\New folder\NMCNPM_QuanLyThuVien\CNPM_QuanLyThuVien\CNPM_QuanLyThuVien\obj\Debug\CNPM_QuanLyThuVien.HomeViewComponents.LapPhieuThuTienPhat_view.resources
+D:\cnpm\New folder\NMCNPM_QuanLyThuVien\CNPM_QuanLyThuVien\CNPM_QuanLyThuVien\obj\Debug\CNPM_QuanLyThuVien.HomeViewComponents.QLPhieuThuTienPhat.QLPhieuThuTienPhat_view.resources
+D:\cnpm\New folder\NMCNPM_QuanLyThuVien\CNPM_QuanLyThuVien\CNPM_QuanLyThuVien\obj\Debug\CNPM_QuanLyThuVien.HomeViewComponents.QLPhieuThuTienPhat.SuaPhieuThuTienPhat_view.resources
+D:\cnpm\New folder\NMCNPM_QuanLyThuVien\CNPM_QuanLyThuVien\CNPM_QuanLyThuVien\obj\Debug\CNPM_QuanLyThuVien.HomeViewComponents.QLsach.SuaSach_view.resources
+D:\cnpm\New folder\NMCNPM_QuanLyThuVien\CNPM_QuanLyThuVien\CNPM_QuanLyThuVien\obj\Debug\CNPM_QuanLyThuVien.HomeViewComponents.QLsach.ThemSach_view.resources
+D:\cnpm\New folder\NMCNPM_QuanLyThuVien\CNPM_QuanLyThuVien\CNPM_QuanLyThuVien\obj\Debug\CNPM_QuanLyThuVien.HomeViewComponents.QLTheDocGia.SuaTheDocGia_view.resources
+D:\cnpm\New folder\NMCNPM_QuanLyThuVien\CNPM_QuanLyThuVien\CNPM_QuanLyThuVien\obj\Debug\CNPM_QuanLyThuVien.HomeViewComponents.QuanLyQuyDinh_view.resources
+D:\cnpm\New folder\NMCNPM_QuanLyThuVien\CNPM_QuanLyThuVien\CNPM_QuanLyThuVien\obj\Debug\CNPM_QuanLyThuVien.HomeViewComponents.QuanLyQuyDinh.QuyDinh1_view.resources
+D:\cnpm\New folder\NMCNPM_QuanLyThuVien\CNPM_QuanLyThuVien\CNPM_QuanLyThuVien\obj\Debug\CNPM_QuanLyThuVien.HomeViewComponents.QuanLyQuyDinh.QuyDinh2_view.resources
+D:\cnpm\New folder\NMCNPM_QuanLyThuVien\CNPM_QuanLyThuVien\CNPM_QuanLyThuVien\obj\Debug\CNPM_QuanLyThuVien.HomeViewComponents.QuanLyQuyDinh.QuyDinh3_view.resources
+D:\cnpm\New folder\NMCNPM_QuanLyThuVien\CNPM_QuanLyThuVien\CNPM_QuanLyThuVien\obj\Debug\CNPM_QuanLyThuVien.HomeViewComponents.LapBaoCao.QuanLyTheDocGia_view.resources
+D:\cnpm\New folder\NMCNPM_QuanLyThuVien\CNPM_QuanLyThuVien\CNPM_QuanLyThuVien\obj\Debug\CNPM_QuanLyThuVien.HomeViewComponents.QLSach_view.resources
+D:\cnpm\New folder\NMCNPM_QuanLyThuVien\CNPM_QuanLyThuVien\CNPM_QuanLyThuVien\obj\Debug\CNPM_QuanLyThuVien.LoginForm.resources
+D:\cnpm\New folder\NMCNPM_QuanLyThuVien\CNPM_QuanLyThuVien\CNPM_QuanLyThuVien\obj\Debug\CNPM_QuanLyThuVien.PhieuMuon_view.resources
+D:\cnpm\New folder\NMCNPM_QuanLyThuVien\CNPM_QuanLyThuVien\CNPM_QuanLyThuVien\obj\Debug\CNPM_QuanLyThuVien.PhieuTra_view.resources
+D:\cnpm\New folder\NMCNPM_QuanLyThuVien\CNPM_QuanLyThuVien\CNPM_QuanLyThuVien\obj\Debug\CNPM_QuanLyThuVien.Properties.Resources.resources
+D:\cnpm\New folder\NMCNPM_QuanLyThuVien\CNPM_QuanLyThuVien\CNPM_QuanLyThuVien\obj\Debug\CNPM_QuanLyThuVien.LapTheDocGia_view.resources
+D:\cnpm\New folder\NMCNPM_QuanLyThuVien\CNPM_QuanLyThuVien\CNPM_QuanLyThuVien\obj\Debug\CNPM_QuanLyThuVien.csproj.GenerateResource.cache
+D:\cnpm\New folder\NMCNPM_QuanLyThuVien\CNPM_QuanLyThuVien\CNPM_QuanLyThuVien\obj\Debug\CNPM_QuanLyThuVien.csproj.CoreCompileInputs.cache
+D:\cnpm\New folder\NMCNPM_QuanLyThuVien\CNPM_QuanLyThuVien\CNPM_QuanLyThuVien\obj\Debug\CNPM_QuanLyThuVien.exe
+D:\cnpm\New folder\NMCNPM_QuanLyThuVien\CNPM_QuanLyThuVien\CNPM_QuanLyThuVien\obj\Debug\CNPM_QuanLyThuVien.pdb
