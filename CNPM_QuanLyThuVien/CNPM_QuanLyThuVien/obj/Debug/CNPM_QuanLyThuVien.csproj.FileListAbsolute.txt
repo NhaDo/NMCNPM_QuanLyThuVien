@@ -116,3 +116,5 @@ D:\cnpm\New folder\NMCNPM_QuanLyThuVien\CNPM_QuanLyThuVien\CNPM_QuanLyThuVien\ob
 D:\cnpm\New folder\NMCNPM_QuanLyThuVien\CNPM_QuanLyThuVien\CNPM_QuanLyThuVien\obj\Debug\CNPM_QuanLyThuVien.csproj.CoreCompileInputs.cache
 D:\cnpm\New folder\NMCNPM_QuanLyThuVien\CNPM_QuanLyThuVien\CNPM_QuanLyThuVien\obj\Debug\CNPM_QuanLyThuVien.exe
 D:\cnpm\New folder\NMCNPM_QuanLyThuVien\CNPM_QuanLyThuVien\CNPM_QuanLyThuVien\obj\Debug\CNPM_QuanLyThuVien.pdb
+D:\cnpm\New folder\NMCNPM_QuanLyThuVien\CNPM_QuanLyThuVien\CNPM_QuanLyThuVien\bin\Debug\LibaryDB.mdf
+D:\cnpm\New folder\NMCNPM_QuanLyThuVien\CNPM_QuanLyThuVien\CNPM_QuanLyThuVien\bin\Debug\LibaryDB_log.ldf

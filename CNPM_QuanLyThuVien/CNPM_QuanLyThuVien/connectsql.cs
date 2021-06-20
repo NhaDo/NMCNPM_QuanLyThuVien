@@ -15,13 +15,13 @@ namespace CNPM_QuanLyThuVien
 
         public SqlConnection OpenDB()
         {
-            conn = new SqlConnection(@"Data Source=BINGO-SAN\SQLEXPRESS;Initial Catalog=LibraryDB;Integrated Security=True");
+            conn = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\LibaryDB.mdf;Integrated Security=True");
             return conn;
         }
 
         public static void OpenConnection()
         {
-            string sql = @"Data Source=BINGO-SAN\SQLEXPRESS;Initial Catalog=LibraryDB;Integrated Security=True";
+            string sql = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\LibaryDB.mdf;Integrated Security=True";
             try
             {
                 conn = new SqlConnection(sql);
